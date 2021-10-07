@@ -1,6 +1,11 @@
+@import "./settings/fonts";
 @import "./settings/reset.scss";
 @import "./settings/colors";
 @import "./settings/breakpoints";
 
 @import "./components/navbar";
 @import "./components/mainView";
+@import "./components/biography";
+@import "./components/concerts";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');

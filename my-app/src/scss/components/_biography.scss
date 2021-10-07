@@ -1,0 +1,50 @@
+.biography {
+    height: 100vh;
+    width: 100vw;
+    // background-color: darken($color-white, 5%);
+    // box-shadow: inset 0px 60px 50px 0px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid lighten($color-black-almost, 30%);
+    // background-image: url("../../assets/DSC_4202ak.jpg");
+    .biography__content {
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        .biography__content--left {
+            .biography__content--title {
+                font-size: 50px;
+                position: relative;
+                padding-bottom: 20px;
+                margin-bottom: 30px;
+                &::after {
+                    content: "";
+                    height: 3px;
+                    width: 100px;
+                    background-color: $color-dark-blue;
+                    position: absolute;
+                    bottom: 0;
+                    left: 46.5%;
+                }
+            }
+            .biography__content--text {
+                font-size: 18px;
+                margin: 50px;
+            }
+            .biography__content--button {
+                color: $color-dark-blue;
+                font-family: $font-raleway;
+                border: 1px solid $color-dark-blue;
+                border-radius: 2px;
+                padding: 10px 20px;
+            }
+        }
+        .biography__content--right {
+            background-image: url("../../assets/IMG_9785.jpg");
+            height: 100%;
+        }
+    }
+}
