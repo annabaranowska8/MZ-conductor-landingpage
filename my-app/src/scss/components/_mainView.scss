@@ -70,12 +70,12 @@
 
                 //NAVBAR
                 .main__navbar--background--right--title {
-                    height: 27%;
+                    height: 31%;
                     width: 100%;
                     display: flex;
                     justify-content: center;
                     align-items: end;
-                    padding-bottom: 60px;
+                    padding-bottom: 25px;
                         h1 {
                         font-size: 80px;
                         // font-family: $font-raleway;
@@ -97,11 +97,11 @@
                     .description:first-child {
                         text-transform: uppercase;
                         margin-bottom: 70px;
-                        color: $color-dark-blue;
+                        color: #1b1b1b;
                         font-family: sans-serif;
-                        // font-family: $font-raleway;
-                        font-size: 35px;
+                        font-size: 20px;
                         font-weight: 300;
+                        letter-spacing: 1.5px;
 
                     }
                     .description:nth-child(2), .description:last-child {
