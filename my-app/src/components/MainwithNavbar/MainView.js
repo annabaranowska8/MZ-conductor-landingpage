@@ -27,9 +27,9 @@ const MainView = () => {
                         <h1>Martyna <span>Zych</span></h1> 
                         </div>
                         <div className="main__navbar--background--right--content">
-                        <p>Dyrygent czeskiej muzyki</p>  
-                        <p>Antonín Dvořák</p>  
-                        <p>Bedřich Smetana</p>                   
+                        <p className="description">Dyrygent czeskiej muzyki</p>  
+                        <p className="description">Antonín Dvořák</p>  
+                        <p className="description">Bedřich Smetana</p>                   
                         </div>
                     </div>
                 </div>
