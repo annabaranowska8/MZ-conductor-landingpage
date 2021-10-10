@@ -2,7 +2,7 @@ import React from "react";
 
 const Concerts = () => {
     return (
-        <div className="concerts">
+        <div className="concerts" id="concerts">
             <div class="concerts__container">
                 <h2 className="concerts__container--title">Koncerty</h2>
                 <ul className="concerts__container--events_list">

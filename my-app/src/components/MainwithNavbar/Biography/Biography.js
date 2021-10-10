@@ -2,7 +2,7 @@ import React from "react";
 
 const Biography = () => {
     return (
-        <div className="biography">
+        <div className="biography" id="biography">
             <div className="biography__content">
                 <div className="biography__content--left">
                     <div className="biography__content--left__content">

@@ -10,7 +10,7 @@ const App = () => {
     return (
         <HashRouter>
             <Route exact path="/" component={Main}/>
-            <Route path="biography" component={BiographyFullVersion}/>
+            <Route path="/biography" component={BiographyFullVersion}/>
         </HashRouter>
     )
 }

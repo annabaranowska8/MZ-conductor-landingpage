@@ -1,11 +1,22 @@
 .concerts {
-    margin-top: -25px;
+    // margin-top: -25px;
     height: 70vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lighten($color-black, 10%);
+    position: relative;
+    &::before {
+        content: "";
+        background-color: $color-black;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        opacity: 0.85;
+    }
+    // background-color: lighten($color-black, 10%);
     // border-bottom: 1px solid lighten($color-black-almost, 20%);
     .concerts__container {
         width: 100%;
@@ -14,6 +25,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        z-index: 1;
         // background-color: $color-white;
         // box-shadow: 0px 0px 20px 7px white;
         // border-radius: 2px;

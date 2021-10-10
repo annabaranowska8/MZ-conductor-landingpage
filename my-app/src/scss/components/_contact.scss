@@ -1,0 +1,88 @@
+.contact {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    background-color: $color-black-almost;
+    color: darken($color-white, 10%);
+    font-family: $font-raleway;
+
+    .contact__container {
+        box-sizing: border-box;
+        &:first-child {
+            width: 25%;
+            text-align: justify;
+            padding: 20px 0 20px 20px;
+
+            h3 {
+                font-weight: 700;
+                text-transform: uppercase;
+                padding-bottom: 30px;
+                color: $color-white;
+                span {
+                    color: $color-dark-blue;
+                }
+            }
+            p {
+                font-size: 15px;
+                padding: 20px 40px 0 0;
+            }
+        }
+        &:last-child {
+            width: 75%;
+            height: 100%;
+            padding: 20px 0 20px 20px;
+
+            .contact__container--contact {
+                display: flex;
+                flex-direction: column;
+                h3 {
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    padding-bottom: 30px;
+                    color: $color-white;
+                }
+                span {
+                    letter-spacing: 2px;
+                    color: $color-dark-blue;
+                }
+                .contact__socialMedia {
+                    display: flex;
+                    flex-direction: column;
+
+                    .socialMedia {
+                        display: flex;
+                        padding: 25px 40px 0 0;
+                        font-size: 23px;
+                        a {
+                            color: $color-white;
+                            font-size: 23px;
+                            transition: 0.7s;
+                            &:hover {
+                                color: $color-dark-blue;
+                                transition: 0.7s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.contact__footer {
+    padding: 10px 20px;
+    background-color: $color-black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darken($color-white, 20%);
+    font-family: $font-raleway;
+    a {
+        color: darken($color-dark-blue, 20%);
+        text-decoration: none;
+        transition: 0.7s;
+        &:hover {
+            color: $color-dark-blue;
+            transition: 0.7s;
+        }
+    }
+}
