@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="contact__container">
                 <div className="contact__container--aboutme">
                     <h3>Dyrygent <span>Martyna Zych</span></h3>
-                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                    <p>Meow meow you are my owner so here is a dead bird munch on tasty moths love me! and destroy couch as revenge for leave fur on owners clothes. Munch, munch, chomp, chomp as lick i the shoes for scratch the postman wake up lick paw wake up owner meow meow snuggles up to shoulders or knees and purrs you to sleep so taco cat backwards spells taco cat. Somehow manage to catch a bird but have no idea what to do next, so play with it until it dies of shock meowsiers.</p>
                 </div>
             </div>
             <div className="contact__container">

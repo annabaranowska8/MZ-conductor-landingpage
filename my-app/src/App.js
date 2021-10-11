@@ -1,17 +1,17 @@
 import React from "react";
 import {
-    HashRouter,
+    BrowserRouter,
     Route
 } from "react-router-dom";
 import Main from "./Main";
-import BiographyFullVersion from "./components/MainwithNavbar/Biography/BiographyFullVersion";
+import Biography from "./components/MainwithNavbar/Biography/Biography";
 
 const App = () => {
     return (
-        <HashRouter>
+        <BrowserRouter>
             <Route exact path="/" component={Main}/>
-            <Route path="/biography" component={BiographyFullVersion}/>
-        </HashRouter>
+            <Route path="/biography" component={Biography}/>
+        </BrowserRouter>
     )
 }
 

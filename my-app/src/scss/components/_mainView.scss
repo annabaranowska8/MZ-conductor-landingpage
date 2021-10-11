@@ -25,9 +25,7 @@
         bottom: 0;
         left: 50%;
         padding: 20px 0;
-        // animation: 
-        // pulse 3s ease infinite alternate, 
-        // nudge 5s linear infinite alternate;
+//ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA
     }
 
     .main__socialMedia {
@@ -167,6 +165,7 @@
                 background-image: url("../../assets/Main.jpg");
                 background-size: cover;
                 opacity: 0.95;
+                background-position-x: center;
                 // border-bottom: 1px solid lighten($color-black-almost, 50%);
 
                 .main__navbar--background__img {
@@ -186,7 +185,7 @@
 
                 //NAVBAR
                 .main__navbar--background--right--title {
-                    height: 31%;
+                    height: 33%;
                     width: 100%;
                     display: flex;
                     justify-content: center;
@@ -195,13 +194,14 @@
                         h1 {
                         font-size: 90px;
                         font-family: $font-amiri;
+                        margin-bottom: 40px;
                         span {
                             color: $color-dark-blue;
                         }                        
                     }
                 }
                 .main__navbar--background--right--title--hidden {
-                    height: calc(31% + 79px);
+                    height: calc(33% + 79px);
                     width: 100%;
                     display: flex;
                     justify-content: center;
@@ -210,6 +210,7 @@
                         h1 {
                         font-size: 90px;
                         font-family: $font-amiri;
+                        margin-bottom: 40px;
                         span {
                             color: $color-dark-blue;
                         }                        
@@ -225,18 +226,33 @@
                     font-size: 23px;
                     line-height: 1.5;
 
-                    .description:first-child {
+                    h2 {
                         text-transform: uppercase;
                         margin-bottom: 70px;
                         color: #1b1b1b;
                         font-family: sans-serif;
-                        font-size: 20px;
+                        font-size: 23px;
                         font-weight: 300;
                         letter-spacing: 1.5px;
 
                     }
-                    .description:nth-child(2), .description:last-child {
-                        text-align: end;
+                    .description__container {
+                        display: flex;
+                        justify-content: space-evenly;
+                        height: auto;
+                        width: 45%;
+                        .description {
+                            font-size: 22px;
+                            text-align: center;
+                            letter-spacing: 1.5px;
+                            transition: 0.7s;
+                            cursor: default;
+
+                            &:hover {
+                                color: darken($color-dark-blue, 25%);
+                                transition: 0.7s;
+                            }
+                        }
                     }
                 }
             }
@@ -246,5 +262,27 @@
     .main__content {
         height: 100%;
         
+    }
+}
+
+@media only screen and (max-width: $xxl-max-width) {
+    .main .main__socialMedia--scroll .socialMedia__emptyDiv {
+        display: none;
+    }
+    .main .main__socialMedia--scroll .socialMedia__navbar .navbar--sm {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        font-family: "Raleway", sans-serif;
+        width: 100%;
+        margin-left: 50px;
+    }
+    .main .main__socialMedia--scroll .socialMedia__navbar .navbar--sm .navbar__ul--sm .navbar__li--sm:first-child a {
+        text-decoration: none;
+        text-transform: uppercase;
+        // width: auto;
+        padding: 3px;
+        outline: none;
+        transition: 0.7s;
     }
 }

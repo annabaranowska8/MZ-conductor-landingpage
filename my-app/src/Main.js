@@ -1,6 +1,6 @@
 import React from "react";
 import MainView from "./components/MainwithNavbar/MainView";
-import Biography from "./components/MainwithNavbar/Biography/Biography";
+import BiographyShort from "./components/MainwithNavbar/Biography/BiographyShort";
 import Concerts from "./components/MainwithNavbar/Concerts/Concerts";
 import Gallery from "./components/MainwithNavbar/Gallery/Gallery";
 import Contact from "./components/MainwithNavbar/Contact/Contact";
@@ -12,7 +12,7 @@ function Main() {
       <div className="mainBackground">
         <MainView/>
         <Concerts />
-        <Biography/>
+        <BiographyShort/>
         <Quotes />
         <Gallery />
       </div>

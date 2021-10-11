@@ -44,9 +44,19 @@ const MainView = () => {
                         <h1>Martyna <span>Zych</span></h1> 
                         </div>
                         <div className="main__navbar--background--right--content">
-                        <p className="description">Dyrygent czeskiej muzyki, miłośniczka kawy Costa</p>  
-                        <p className="description">Antonín Dvořák</p>  
-                        <p className="description">Bedřich Smetana</p>                   
+                            <h2 className="description">Dyrygent czeskiej muzyki</h2>
+                            <div className="description__container">
+                                <div className="description--left">
+                                    <p className="description">Bedřich Smetana</p>   
+                                    <p className="description">Antonín Dvořák</p>  
+                                    <p className="description">Leoš Janáček</p> 
+                                </div>
+                                <div className="description--right">
+                                    <p className="description">Bohuslav Martinů</p> 
+                                    <p className="description">Zdeněk Fibich</p>  
+                                    <p className="description">Josef Suk</p>                                                            
+                                </div>                                 
+                            </div> 
                         </div>
                     </div>
                 </div>

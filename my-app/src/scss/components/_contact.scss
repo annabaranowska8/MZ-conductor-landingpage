@@ -68,6 +68,17 @@
         }
     }
 }
+
+@media only screen and (max-width: $xxl-max-width) {
+    .contact {
+        height: auto;
+        .contact__container:first-child p {
+            font-size: 15px;
+            padding: 0 40px 0 0;
+        }
+    }
+}
+
 .contact__footer {
     padding: 10px 20px;
     background-color: $color-black;
