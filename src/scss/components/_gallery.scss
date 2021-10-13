@@ -1,0 +1,78 @@
+.gallery {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    .gallery__photo {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        // border: 1px solid $color-black-almost;
+        .photo1, .photo2, .photo3, .photo4, .photo5 {
+            height: 100%;
+            width: 100%;
+            // border: 1px solid lighten($color-black-almost, 10%);
+            // border-top: 2px solid lighten($color-black-almost, 10%);
+            // border-bottom: 2px solid lighten($color-black-almost, 10%);
+        }
+        .gallery--1 {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            .photo1 {
+                background-image: url("../../assets/IMG_9694.jpg");
+                background-size: cover;
+                background-position: top;
+                background-position-y: 15%;
+                background-position-x: center;
+                // &:hover {
+                //     scale: 1.2;
+                // }
+            }
+            .photo2 {
+                background-image: url("../../assets/DSC_4202ak.jpg");
+                background-size: cover;
+                background-position: center;
+            }            
+        }
+        .gallery--2 {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            .photo3 {
+                background-image: url("../../assets/IMG_9692.jpg");
+                background-size: cover;
+                background-position-y: 15%;
+                background-position-x: center;
+            }
+            .photo4 {
+                background-image: url("../../assets/DSC_4208mk.jpg");
+                background-size: cover;
+                background-position: center;
+            }            
+        }
+
+        // .photo5 {
+        //     background-image: url("../../assets/IMG_9692.jpg");
+        //     background-size: cover;
+        // }
+    }
+}
+@media screen and (max-width: $lg-max-width) {
+    .gallery {
+        height: 100vh;
+        .gallery__photo {
+        height: 200%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+    }
+    .gallery .gallery__photo .gallery--2 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
