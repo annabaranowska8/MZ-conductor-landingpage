@@ -80,13 +80,24 @@
 }
 
 .contact__footer {
+    width: 100%;
     padding: 10px 20px;
     background-color: $color-black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: darken($color-white, 20%);
     font-family: $font-raleway;
+    .photos {
+        margin: 10px;
+        font-weight: 400;
+    }
+    .developer {
+        font-weight: 600;
+        margin: 10px;
+
+    }
     a {
         color: darken($color-dark-blue, 20%);
         text-decoration: none;

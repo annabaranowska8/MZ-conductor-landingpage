@@ -29,14 +29,16 @@ const Contact = () => {
                             <div className="socialMedia"><a href="https://www.linkedin.com/in/martyna-zych-b69a4514a/">{linkedIn}</a></div>
                         </div>                        
                     </div>
-
-                    
-
                 </div>
             </div>
         </div>
         <footer className="contact__footer">
-            <p>Developed and designed by <a href ="https://www.linkedin.com/in/baranowska-anna/">Anna Baranowska</a></p>
+            <div className="photos">
+                <p>Photos by Mateusz Żaboklicki, Tomasz Szklany</p>                
+            </div>
+            <div className="developer">
+                <p>Developed and designed by <a href ="https://www.linkedin.com/in/baranowska-anna/">Anna Baranowska</a></p>
+            </div>
         </footer>
         </>
     )
