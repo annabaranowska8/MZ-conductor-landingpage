@@ -13,26 +13,30 @@ const MainView = () => {
     const linkedIn = <FontAwesomeIcon icon={faLinkedinIn} />
     const angleDouble = <FontAwesomeIcon icon={faAngleDoubleDown} />
 
-    const [ scroll, setScroll] = useState(false);
-    const [ scrollMobile, setScrollMobile ] = useState(false)
+    const [ scroll, setScroll] = useState();
+    const [ scrollMobile, setScrollMobile ] = useState()
     
     useEffect(() => {
+        window.innerWidth >= 992 && setScroll(window.scrollY > 80);
         window.addEventListener("scroll", () => {
-            window.innerWidth >= "992px" && setScroll(window.scrollY > 80);
-        });
+            window.innerWidth >= 992 && setScroll(window.scrollY > 80);
+        }, { passive: true });
     }, []);
 
     useEffect(() => {
+        setScrollMobile(window.innerWidth < 992);
         window.addEventListener("scroll", () => {
-            setScrollMobile(window.innerWidth < 992);
-        });
+        setScrollMobile(window.innerWidth < 992);
+        }, { passive: true });
     }, []);;
     return (
         <>
-        {console.log(scrollMobile )}
+        {console.log("scroll", scroll )}
+        {console.log("scrollMobile", scrollMobile )}
         <div className="main">
             <div className="angleDouble">{angleDouble}</div>
-            <div className={(scroll ? "main__socialMedia--scroll" : "main__socialMedia") || scrollMobile && "main__socialMedia--Mobile"}>
+            <div className={`${scroll ? "main__socialMedia--scroll" : scrollMobile ? "main__socialMedia--Mobile" : "main__socialMedia"}`}>
+            {/* <div className={`${scroll ? "main__socialMedia--scroll" : "main__socialMedia"}`}> */}
                 <div className="socialMedia__emptyDiv"></div>
                 <div className="socialMedia__navbar">
                     <Navbar />
