@@ -16,27 +16,27 @@ const Navbar = () => {
                 to="/#"
                 activeClassName="selected"
                 smooth
-                >Strona główna</NavHashLink></li>
+                >Home</NavHashLink></li>
                 <li className={scroll ? "navbar__li--sm" : "navbar__li"}><NavHashLink
                 to="/#concerts"
                 activeClassName="selected"
                 smooth
-                >Koncerty</NavHashLink></li> 
+                >Concerts</NavHashLink></li> 
                 <li className={scroll ? "navbar__li--sm" : "navbar__li"}><NavHashLink
                 to="/#biography"
                 activeClassName="selected"
                 smooth
-                >Biografia</NavHashLink></li> 
+                >Biography</NavHashLink></li> 
                 <li className={scroll ? "navbar__li--sm" : "navbar__li"}><NavHashLink
                 to="/#gallery"
                 activeClassName="selected"
                 smooth
-                >Galeria</NavHashLink></li>
+                >Gallery</NavHashLink></li>
                 <li className={scroll ? "navbar__li--sm" : "navbar__li"}><NavHashLink
                 to="/#contact"
                 activeClassName="selected"
                 smooth
-                >Kontakt</NavHashLink></li>            
+                >Contact</NavHashLink></li>            
             </ul>
         </nav>
     )

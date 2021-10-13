@@ -14,6 +14,7 @@ const MainView = () => {
     const angleDouble = <FontAwesomeIcon icon={faAngleDoubleDown} />
 
     const [ scroll, setScroll] = useState(false);
+    
     useEffect(() => {
         window.addEventListener("scroll", () => {
             setScroll(window.scrollY > 80);
@@ -44,17 +45,17 @@ const MainView = () => {
                         <h1>Martyna <span>Zych</span></h1> 
                         </div>
                         <div className="main__navbar--background--right--content">
-                            <h2 className="description">Dyrygent czeskiej muzyki</h2>
+                            <h2 className="description">Conductor</h2>
                             <div className="description__container">
                                 <div className="description--left">
-                                    <p className="description">Bedřich Smetana</p>   
                                     <p className="description">Antonín Dvořák</p>  
-                                    <p className="description">Leoš Janáček</p> 
+                                    <p className="description">Bedřich Smetana</p>
+                                    <p className="description">Bohuslav Martinů</p>    
                                 </div>
                                 <div className="description--right">
-                                    <p className="description">Bohuslav Martinů</p> 
-                                    <p className="description">Zdeněk Fibich</p>  
-                                    <p className="description">Josef Suk</p>                                                            
+                                    <p className="description">Josef Suk</p>
+                                    <p className="description">Leoš Janáček</p> 
+                                    <p className="description">Zdeněk Fibich</p>                                                              
                                 </div>                                 
                             </div> 
                         </div>

@@ -38,3 +38,9 @@
         }
     }
 }
+@media screen and (max-width: $lg-max-width) {
+    .navbar {
+        display: none;
+    }
+
+}

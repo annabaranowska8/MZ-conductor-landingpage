@@ -22,12 +22,12 @@
             display: flex;
             align-items: center;
             .biography__content--left__content {
-                padding: 0;
                 .biography__content--title {
                     font-size: 50px;
                     position: relative;
-                    padding-bottom: 20px;
-                    margin-bottom: 30px;
+                    padding: 90px 0 20px 0;
+                    margin-bottom: 60px;
+                    text-transform: uppercase;
                     &::after {
                         content: "";
                         height: 3px;
@@ -42,6 +42,13 @@
                     font-size: 18px;
                     margin: 50px;
                     text-align: justify;
+                    line-height: 26px;
+                    em {
+                        font-style: italic;
+                    }
+                    .nobreak {
+                        white-space: nowrap;
+                    }
                 }
                 .biography__content--button {
                     font-family: $font-raleway;
@@ -69,4 +76,48 @@
             width: 50vw;
         }
     }
+}
+@media screen and (max-width: $lg-max-width) {
+    .biography {
+        height: 100%;
+        width: 100%;
+        background-image: url("../../assets/IMG_9785.jpg");
+        background-size: cover;
+        position: relative;
+        background-position-y: 27%;
+        &::before {
+            content: "";
+            height: 100%;
+            width: 100%;
+            background-color: $color-white;
+            opacity: 0.8;
+            position: absolute;
+        }
+        .biography__content {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+            .biography__content--left {
+                width: 100%;
+                background-color: transparent;
+                z-index: 9;
+            }
+        }
+    }
+    .biography .biography__content .biography__content--left .biography__content--left__content .biography__content--text {
+        font-size: 18px;
+        margin: 70px 100px;
+        text-align: justify;
+    }
+    .biography .biography__content .biography__content--left {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .biography .biography__content .biography__content--right {
+        display: none;
+    }
+
 }

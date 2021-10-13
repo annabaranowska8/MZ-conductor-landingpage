@@ -97,3 +97,35 @@
         }
     }
 }
+@media screen and (max-width: $lg-max-width) {
+    .contact {
+        padding: 20px 0;
+
+        .contact__container {
+            display: flex;
+            width: 100%;
+            height: auto;
+            &:first-child {
+                width: 100%;
+                padding: 0;
+                p {
+                    padding: 15px;
+                }
+            }
+            &:last-child {
+                width: 100%;
+                padding: 0;
+            }
+            h3 {
+                text-align: center;
+            }
+            .contact--links {
+                padding: 15px;
+            }
+        }
+    }
+    .contact .contact__container:last-child .contact__container--contact .contact__socialMedia {
+        display: flex;
+        flex-direction: row;
+    }
+}
