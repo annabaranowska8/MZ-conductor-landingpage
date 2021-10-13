@@ -32,7 +32,7 @@
 
     .main__socialMedia {
         height: 30px;
-        width: 100vw;
+        width: 100%;
         z-index: 9;
         position: fixed;
         display: flex;
@@ -70,7 +70,7 @@
     }
     .main__socialMedia--scroll {
         height: 90px;
-        width: 100vw;
+        width: 100%;
         z-index: 9999;
         position: fixed;
         display: flex;
@@ -356,6 +356,11 @@
         font-family: "Amiri", serif;
         margin-bottom: 25px;
     }
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--title--hidden h1 {
+        font-size: 80px;
+        font-family: "Amiri", serif;
+        margin-bottom: 25px;
+    }
     .main .main__navbar .main__navbar--background .main__navbar--background--left {
         height: calc(100vh - 25px);
         width: 45vw;
@@ -461,4 +466,12 @@
         background-color: #232528;
         border-bottom: 1px solid #9fa4ab;
     }
+}
+
+.main__socialMedia--Mobile {
+    height: 10%;
+    width: 100%;
+    background-color: yellow;
+    z-index: 9999999;
+    position: fixed;
 }

@@ -14,18 +14,25 @@ const MainView = () => {
     const angleDouble = <FontAwesomeIcon icon={faAngleDoubleDown} />
 
     const [ scroll, setScroll] = useState(false);
+    const [ scrollMobile, setScrollMobile ] = useState(false)
     
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            setScroll(window.scrollY > 80);
+            window.innerWidth >= "992px" && setScroll(window.scrollY > 80);
         });
     }, []);
 
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            setScrollMobile(window.innerWidth < 992);
+        });
+    }, []);;
     return (
         <>
+        {console.log(scrollMobile )}
         <div className="main">
             <div className="angleDouble">{angleDouble}</div>
-            <div className={scroll ? "main__socialMedia--scroll" : "main__socialMedia"}>
+            <div className={(scroll ? "main__socialMedia--scroll" : "main__socialMedia") || scrollMobile && "main__socialMedia--Mobile"}>
                 <div className="socialMedia__emptyDiv"></div>
                 <div className="socialMedia__navbar">
                     <Navbar />

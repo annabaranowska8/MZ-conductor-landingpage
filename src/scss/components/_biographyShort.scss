@@ -77,7 +77,15 @@
         }
     }
 }
-@media screen and (max-width: $lg-max-width) {
+@media screen and (max-width: 1400px) {
+    .biography .biography__content .biography__content--left .biography__content--left__content .biography__content--text {
+        font-size: 18px;
+        margin: 50px;
+        text-align: justify;
+        line-height: 23px;
+    }
+}
+@media screen and (max-width: 1500px) {
     .biography {
         height: 100%;
         width: 100%;
@@ -120,4 +128,20 @@
         display: none;
     }
 
+}
+@media screen and (max-width: $md-max-width) {
+    .biography {
+        height: 100%;
+        width: 100%;
+        background-image: url("../../assets/IMG_9785.jpg");
+        background-size: cover;
+        position: relative;
+        background-position-y: center;
+        background-position-x: center;
+    }
+    .biography .biography__content .biography__content--left .biography__content--left__content .biography__content--text {
+        font-size: 18px;
+        margin: 40px 60px;
+        text-align: justify;
+    }
 }
