@@ -24,7 +24,7 @@ const MainView = () => {
     }, []);
 
     useEffect(() => {
-        setScrollMobile(window.innerWidth < 992);
+        setScrollMobile(window.innerWidth <= 992);
         window.addEventListener("scroll", () => {
         setScrollMobile(window.innerWidth < 992);
         }, { passive: true });

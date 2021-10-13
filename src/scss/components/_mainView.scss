@@ -469,9 +469,15 @@
 }
 
 .main__socialMedia--Mobile {
-    height: 10%;
+    height: 90px;
     width: 100%;
-    background-color: yellow;
-    z-index: 9999999;
+    z-index: 9999;
     position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #232528;
+    border-bottom: 1px solid #ffd76a;
+    transition: 1s;
 }
