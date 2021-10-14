@@ -9,13 +9,15 @@
     background-position-x: center;
     background-attachment: fixed;
 }
-
+.main .main__navbar {
+    background-color: $color-black;
+}
 .main {
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 30px);
+    height: 100%;
     width: 100vw;
-    background-color: $color-white;
+    background-color: $color-black;
     position: relative;
     .angleDouble {
         position: absolute;
@@ -28,6 +30,12 @@
         margin: auto;
         transform: translateX(-50%);
 //ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA //ANIMACJA
+    }
+    .bars__none {
+        display: none;
+    }
+    .main__navbar {
+        background-color: $color-black;
     }
 
     .main__socialMedia {
@@ -383,16 +391,10 @@
     }
 }
 @media screen and (max-width: $lg-max-width) {
+    .main .main__navbar {
+        background-color: $color-black;
+    }
     .main .main__navbar .main__navbar--background .main__navbar--background--left {
-        // height: calc(100vh - 25px);
-        // width: 100vw;
-        // background-color: #232528;
-        // display: flex;
-        // justify-content: end;
-        // background-image: url("../../assets/Main.jpg");
-        // background-size: cover;
-        // opacity: 0.95;
-        // background-position-x: 20%;
         display: none;
     }
     .main .main__navbar .main__navbar--background .main__navbar--background--right {
@@ -408,7 +410,7 @@
         background-position-y: 23%;
         &::before {
             content: "";
-            height: calc(100% - 25px);
+            height: calc(100% - 60px);
             width: 100%;
             background-color: $color-black;
             opacity: 0.5;
@@ -455,21 +457,10 @@
         color: $color-white;
     }
     //NAVBAR 
-    .main .main__socialMedia {
-        height: 30px;
-        width: 100vw;
-        z-index: 9;
-        position: fixed;
-        display: none;
-        justify-content: center;
-        align-items: center;
-        background-color: #232528;
-        border-bottom: 1px solid #9fa4ab;
-    }
 }
 @media screen and (max-width: $lg-max-width) {
     .main__socialMedia--Mobile {
-        height: 80px;
+        height: 60px;
         width: 100%;
         z-index: 9999;
         position: fixed;
@@ -487,7 +478,7 @@
             width: 65%;
         }
         .socialMedia__emptyDiv {
-            // display: none;
+            display: none;
         }
         .socialMedia__navbar {
             // display: flex;
@@ -571,8 +562,9 @@
             width: 65%;
         }
         .socialMedia__emptyDiv {
-            height: 20px;
-            width: 20px;
+            // height: 20px;
+            // width: 20px;
+            display: none;
         }
         .socialMedia__navbar {
             // display: flex;
@@ -636,4 +628,108 @@
         }
     }    
 
+}
+@media screen and (max-width: $md-max-width) {
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--title h1 {
+        font-size: 70px;
+        font-family: "Amiri", serif;
+        margin-bottom: -10px;
+        color: #fff;
+    }
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--content h2 {
+        text-transform: uppercase;
+        margin-bottom: 0;
+        color: #f2f2f2;
+        opacity: 0.5;
+        font-family: sans-serif;
+        font-size: 70px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--content .description__container .description {
+        font-size: 16px;
+        color: #fff;
+    }
+}
+@media screen and (max-width: $sm-max-width) {
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--title h1 {
+        font-size: 60px;
+        font-family: "Amiri", serif;
+        margin-bottom: -10px;
+        color: #fff;
+    }
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--content h2 {
+        text-transform: uppercase;
+        margin-bottom: 0;
+        color: #f2f2f2;
+        opacity: 0.5;
+        font-family: sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--content .description__container .description {
+        font-size: 14px;
+        color: #fff;
+    }
+}
+@media screen and (max-width: 375px) {
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--title h1 {
+        font-size: 50px;
+        font-family: "Amiri", serif;
+        margin-bottom: -10px;
+        color: #fff;
+    }
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--content h2 {
+        text-transform: uppercase;
+        margin-bottom: 0;
+        color: #f2f2f2;
+        opacity: 0.5;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--content .description__container .description {
+        font-size: 12px;
+        color: #fff;
+    }
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--title {
+        height: 58%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 12px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--title h1 {
+        font-size: 40px;
+        font-family: "Amiri", serif;
+        margin-bottom: -10px;
+        color: #fff;
+    }
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--content h2 {
+        text-transform: uppercase;
+        margin-bottom: 0;
+        color: #f2f2f2;
+        opacity: 0.5;
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--content .description__container .description {
+        font-size: 12px;
+        color: #fff;
+    }
+    .main .main__navbar .main__navbar--background .main__navbar--background--right .main__navbar--background--right--title {
+        height: 58%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 12px;
+    }
 }

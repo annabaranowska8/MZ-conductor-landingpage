@@ -9,9 +9,9 @@ const Quotes = () => {
             <div className="quotes__container">
                 <div className="quotes__container--decoration">{quoteRight}</div>
                 <div className="quotes__container--singleQuote">
-                    <p>Kocham kawę z Costa Caffe!, a tak serio to może jakiś cytat z radia, z wywiadu?</p>    
+                    <p>Her maturation, although still nearing completion given her young age,<br/> is very fast and I am sure that in few years she could achieve<br/> very significant results.</p>    
                 </div>
-                <span>Martyna Zych</span>
+                <span>Massimiliano Caldi</span>
             </div>
         </div>
     )

@@ -22,32 +22,29 @@ const Navbar = () => {
     }, []);;
 
     return (
-        <nav className={`${scroll ? "navbar navbar--sm" : scrollMobile ? "navbar navbar--sm" : "navbar"}`}>
-            {/* <nav className={scroll ? "navbar navbar--sm" : "navbar"}> */}
-            <ul className={`${scroll ? "navbar__ul--sm" : scrollMobile ? "navbar__ul--sm" : "navbar__ul"}`}>
-            {/* <ul className={scroll ? "navbar__ul--sm" : "navbar__ul"}> */}
-            <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
-            // <li className={scroll ? "navbar__li--sm" : "navbar__li--dnone"}><NavHashLink
+        <nav >
+            <ul >
+            <li ><NavHashLink
                 to="/#"
                 activeClassName="selected"
                 smooth
                 >Home</NavHashLink></li>
-                <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
+                <li ><NavHashLink
                 to="/#concerts"
                 activeClassName="selected"
                 smooth
                 >Concerts</NavHashLink></li> 
-                <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
+                <li ><NavHashLink
                 to="/#biography"
                 activeClassName="selected"
                 smooth
                 >Biography</NavHashLink></li> 
-                <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
+                <li ><NavHashLink
                 to="/#gallery"
                 activeClassName="selected"
                 smooth
                 >Gallery</NavHashLink></li>
-                <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
+                <li ><NavHashLink
                 to="/#contact"
                 activeClassName="selected"
                 smooth

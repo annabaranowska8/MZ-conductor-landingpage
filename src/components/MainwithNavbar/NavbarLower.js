@@ -2,10 +2,10 @@ import React, {useState, useEffect} from "react";
 import { NavHashLink } from 'react-router-hash-link';
 
 
-const Navbar = () => {
+const NavbarLower = () => {
 
     const [ scroll, setScroll] = useState();
-    const [ scrollMobile, setScrollMobile ] = useState()
+    // const [ scrollMobile, setScrollMobile ] = useState()
     
     useEffect(() => {
         window.innerWidth >= 993 && setScroll(window.scrollY > 80);
@@ -14,40 +14,33 @@ const Navbar = () => {
         }, { passive: true });
     }, []);
 
-    useEffect(() => {
-        setScrollMobile(window.innerWidth <= 992);
-        window.addEventListener("scroll", () => {
-        setScrollMobile(window.innerWidth < 993);
-        }, { passive: true });
-    }, []);;
-
     return (
-        <nav className={`${scroll ? "navbar navbar--sm" : scrollMobile ? "navbar navbar--sm" : "navbar"}`}>
+        <nav className={`${scroll ? "navbar" : "navbar navbar--sm"}`}>
             {/* <nav className={scroll ? "navbar navbar--sm" : "navbar"}> */}
-            <ul className={`${scroll ? "navbar__ul--sm" : scrollMobile ? "navbar__ul--sm" : "navbar__ul"}`}>
+            <ul className={`${scroll ? "navbar__ul--sm" : "navbar__ul"}`}>
             {/* <ul className={scroll ? "navbar__ul--sm" : "navbar__ul"}> */}
-            <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
+            <li className= "navbar__li--dnone"><NavHashLink
             // <li className={scroll ? "navbar__li--sm" : "navbar__li--dnone"}><NavHashLink
                 to="/#"
                 activeClassName="selected"
                 smooth
                 >Home</NavHashLink></li>
-                <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
+                <li className={`${scroll ? "navbar__li--dnone" : "navbar__li--sm"}`}><NavHashLink
                 to="/#concerts"
                 activeClassName="selected"
                 smooth
                 >Concerts</NavHashLink></li> 
-                <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
+                <li className={`${scroll ? "navbar__li--dnone" : "navbar__li--sm"}`}><NavHashLink
                 to="/#biography"
                 activeClassName="selected"
                 smooth
                 >Biography</NavHashLink></li> 
-                <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
+                <li className={`${scroll ? "navbar__li--dnone" : "navbar__li--sm"}`}><NavHashLink
                 to="/#gallery"
                 activeClassName="selected"
                 smooth
                 >Gallery</NavHashLink></li>
-                <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
+                <li className={`${scroll ? "navbar__li--dnone" : "navbar__li--sm"}`}><NavHashLink
                 to="/#contact"
                 activeClassName="selected"
                 smooth
@@ -57,4 +50,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default NavbarLower;

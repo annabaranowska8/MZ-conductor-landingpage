@@ -10,7 +10,7 @@
         content: "";
         background-color: $color-black;
         // border-top: 3px solid lighten($color-black-almost, 50%);
-        margin-top: 15px;
+        margin-top: 10px;
         margin-bottom: 10px;
         height: 100%;
         width: 100%;
@@ -117,6 +117,15 @@
         width: 85%;
     }
 }
+.concerts .concerts__container .concerts__container--title {
+    font-size: 50px;
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    color: #fff;
+}
 @media screen and (max-width: $md-max-width) {
     .concerts .concerts__container .concerts__container--events_list .single_event_list a {
         display: flex;
@@ -132,6 +141,15 @@
         display: flex;
         flex-direction: column;
         width: 90%;
+    }
+    .concerts .concerts__container .concerts__container--title {
+        font-size: 50px;
+        position: relative;
+        padding-bottom: 20px;
+        margin-top: 35px;
+        margin-bottom: 45px;
+        text-transform: uppercase;
+        color: #fff;
     }
 }
 @media screen and (max-width: 650px) {
@@ -164,5 +182,30 @@
         font-family: "Raleway", sans-serif;
         font-size: 12px;
         border-left: 5px solid white;
+    }
+}
+@media screen and (max-width: 500px) {
+    .concerts .concerts__container .concerts__container--title {
+        font-size: 38px;
+        position: relative;
+        padding-bottom: 20px;
+        margin-top: 18px;
+        margin-bottom: 49px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .concerts .concerts__container .concerts__container--events_list .single_event_list:first-child {
+        text-transform: none;
+    }
+}
+@media screen and (max-width: 375px) {
+    .concerts .concerts__container .concerts__container--events_list .single_event_list a .event_list_entry {
+        padding: 4px;
+        width: 25%;
+    }
+    .concerts .concerts__container .concerts__container--events_list {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
     }
 }
