@@ -96,3 +96,32 @@
     }
 
 }
+
+
+
+.navbar-mobile-hamburger {
+    background-color: $color-black;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    position: absolute;
+    top: 60px;
+    transform: translateX(0);
+    right:0;
+    display: flex;
+    transition: ease-in 170ms;
+    width: 215px;
+    font-size: 29px;
+    &.off {
+        right: -100px;
+        transform: translateX(100%);
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        li a {
+                color: $color-dark-blue;
+                font-weight: 200;
+            }
+    }
+}

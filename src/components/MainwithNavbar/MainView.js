@@ -7,6 +7,7 @@ import { faInstagram } from '../../../node_modules/@fortawesome/free-brands-svg-
 import { faLinkedinIn } from '../../../node_modules/@fortawesome/free-brands-svg-icons';
 import { faAngleDoubleDown } from '../../../node_modules/@fortawesome/free-solid-svg-icons';
 import { faBars } from '../../../node_modules/@fortawesome/free-solid-svg-icons';
+import NavbarMobile from './NavbarMobile';
 
 const MainView = () => {
 
@@ -19,6 +20,7 @@ const MainView = () => {
     const [ scroll, setScroll] = useState();
     const [ scrollMobile, setScrollMobile ] = useState()
     const [ bars, setBars ] = useState();
+    const [turnOnMobileNavMenu, setTurnOnMobileNavMenu] = useState(false);
     
     useEffect(() => {
         window.innerWidth >= 993 && setScroll(window.scrollY > 80);
@@ -37,9 +39,8 @@ const MainView = () => {
         }, { passive: true });
     }, []);;
 
-    const handleClick = () => {
-        setBars(false)
-    }
+
+
     return (
         <>
         {console.log("scroll", scroll )}
@@ -48,7 +49,8 @@ const MainView = () => {
         <div className="main">
             <div className="angleDouble">{angleDouble}</div>
             <div className={bars ? "bars__header" : "bars__none"}>
-                <div className={bars ? "bars" : "bars__none"} onClick={handleClick} >{menu}</div>
+                <div className={bars ? "bars" : "bars__none"} onClick={() => {setTurnOnMobileNavMenu(prev => !prev)}} >{menu}</div>
+                <NavbarMobile customClass={turnOnMobileNavMenu ? "on" : "off"} />
                 <div className={`${scroll ? "main__socialMedia--scroll" : (bars ? "bars__noMenu" : (scrollMobile ? "main__socialMedia--Mobile" : "main__socialMedia"))}`}>
                 {/* <div className={`${scroll ? "main__socialMedia--scroll" : "main__socialMedia"}`}> */}
                     <div className="socialMedia__emptyDiv"></div>
