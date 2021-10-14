@@ -17,16 +17,16 @@ const MainView = () => {
     const [ scrollMobile, setScrollMobile ] = useState()
     
     useEffect(() => {
-        window.innerWidth >= 992 && setScroll(window.scrollY > 80);
+        window.innerWidth >= 993 && setScroll(window.scrollY > 80);
         window.addEventListener("scroll", () => {
-            window.innerWidth >= 992 && setScroll(window.scrollY > 80);
+            window.innerWidth >= 993 && setScroll(window.scrollY > 80);
         }, { passive: true });
     }, []);
 
     useEffect(() => {
-        setScrollMobile(window.innerWidth <= 992);
+        setScrollMobile(window.innerWidth <= 993);
         window.addEventListener("scroll", () => {
-        setScrollMobile(window.innerWidth < 992);
+        setScrollMobile(window.innerWidth < 993);
         }, { passive: true });
     }, []);;
     return (
