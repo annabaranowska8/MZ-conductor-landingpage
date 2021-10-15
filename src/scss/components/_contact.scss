@@ -93,8 +93,9 @@
         font-weight: 400;
     }
     .developer {
-        font-weight: 600;
-        margin: 10px;
+        // font-weight: 600;
+        margin-bottom: 10px;
+        text-align: center;
 
     }
     a {
@@ -184,5 +185,8 @@
     .contact .contact__container:last-child .contact__container--contact .email-address-container .email-address-text {
         letter-spacing: 0px;
         color: #ffbc04;
+    }
+    .contact .contact__container .contact--links {
+    padding: 0px;
     }
 }

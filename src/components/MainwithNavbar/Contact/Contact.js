@@ -37,7 +37,7 @@ const Contact = () => {
                 <p>Photos by Mateusz Żaboklicki, Tomasz Szklany</p>                
             </div>
             <div className="developer">
-                <p>Developed and designed by <a href ="https://www.linkedin.com/in/baranowska-anna/">Anna Baranowska</a></p>
+                <p>Developed and designed<br/> by <a href ="https://www.linkedin.com/in/baranowska-anna/">Anna Baranowska</a></p>
             </div>
         </footer>
         </>

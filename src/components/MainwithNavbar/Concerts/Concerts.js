@@ -12,7 +12,7 @@ const Concerts = () => {
                             <div className="event_list_entry event_date">May 19, 2022</div>
                             <div className="event_list_entry event_event">Talentinum Festival</div>
                             <div className="event_list_entry event_location">Philharmonie Bohuslava Martinů, Zlin</div>
-                            <div className="event_list_entry event_program">Repertoire</div>
+                            <div className="event_list_entry event_program">Click for more details...</div>
                         </a>       
                     </li>
                     <li className="single_event_list">
@@ -20,7 +20,7 @@ const Concerts = () => {
                             <div className="event_list_entry event_date">June 26, 2021</div>
                             <div className="event_list_entry event_event">Diploma Concert</div>
                             <div className="event_list_entry event_location">Polish Radio Symphony Orchestra, Warsaw</div>
-                            <div className="event_list_entry event_program">Ludwig van Beethoven, Symphony No. 8 in F major op. 93<br/>Chr. Bach, Viola Concerto in c minor</div>
+                            <div className="event_list_entry event_program">Click for more details...</div>
                         </a>       
                     </li>
                     {/* <li className="single_event_list">

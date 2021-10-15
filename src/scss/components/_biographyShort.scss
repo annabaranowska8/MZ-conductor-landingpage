@@ -155,7 +155,22 @@
     }
     .biography .biography__content .biography__content--left .biography__content--left__content .biography__content--text {
         font-size: 18px;
-        margin: 40px;
+        margin: 30px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .biography .biography__content .biography__content--left .biography__content--left__content .biography__content--title {
+        font-size: 30px;
+        position: relative;
+        padding: 60px 0 20px 0;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+    .biography .biography__content .biography__content--left .biography__content--left__content .biography__content--text {
+        font-size: 18px;
+        margin: 20px;
         text-align: justify;
     }
 }
