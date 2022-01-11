@@ -1,0 +1,19 @@
+{
+    "app_title": "Martyna Zych Conductor",
+    "job_title": "Conductor",
+
+    "menu_home": "Home",
+    "menu_concerts": "Concerts",
+    "menu_biography": "Biography",
+    "menu_gallery": "Gallery",
+    "menu_contact": "Contact",
+
+    "title_concerts": "Concerts",
+    "calendar_date_zlin": "May 19, 2022",
+    "calendar_date_warsaw": "June 26, 2021",
+    "calendar_name_zlin": "Talentinum Festival",
+    "calendar_name_warsaw": "Diploma Concert",
+    "calendar_place_zlin": "Philharmonie Bohuslava Martinů, Zlin",
+    "calendar_place_warsaw": "Polish Radio Symphony Orchestra, Warsaw",
+    "calendar_more": "More details..."
+}

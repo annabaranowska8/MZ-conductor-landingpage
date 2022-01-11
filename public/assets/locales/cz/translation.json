@@ -1,0 +1,20 @@
+{
+    "app_title": "Dirigent Martyna Zych",
+    "job_title": "Dirigent",
+
+    "menu_home": "domek",
+    "menu_concerts": "koncertki",
+    "menu_biography": "bjografija",
+    "menu_gallery": "galerja",
+    "menu_contact": "kontakcik",
+
+    "title_concerts": "Koncerty",
+    "calendar_date_zlin": "Maj 19, 2022",
+    "calendar_date_warsaw": "Czerwiec 26, 2021",
+    "calendar_name_zlin": "Festiwal Talentinum",
+    "calendar_name_warsaw": "Koncert dyplomowy",
+    "calendar_place_zlin": "Filharmonia BOHUSLAVA MARTINŮ, Zlín",
+    "calendar_place_warsaw": "Polska Orkiestra Radiowa, Warszawa",
+    "calendar_more": "Pokaż szczegóły..."
+
+}

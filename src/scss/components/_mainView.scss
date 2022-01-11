@@ -44,7 +44,7 @@
         z-index: 9;
         position: fixed;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         background-color: $color-black-almost;
         border-bottom: 1px solid lighten($color-black-almost, 50%);
@@ -731,5 +731,27 @@
         justify-content: center;
         align-items: flex-end;
         padding-bottom: 12px;
+    }
+}
+
+//languages
+
+.language-select {
+    display: flex;
+}
+.custom-select {
+    background-color: transparent;
+    appearance: none;
+    color: $color-white;
+    border: none;
+    margin-right: 10px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+    &:hover, &:active {
+        color: $color-main;
+    }
+    &:last-child {
+        margin-right: 20px;
     }
 }
