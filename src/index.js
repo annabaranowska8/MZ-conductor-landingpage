@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './scss/main.scss';
 import App from './App';
@@ -8,25 +8,32 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpApi from 'i18next-http-backend';
 
 i18n
-    .use(initReactI18next) // passes i18n down to react-i18next
+.use(HttpApi)
     .use(LanguageDetector)
-    .use(HttpApi)
+   .use(initReactI18next)
     .init({
         supportedLngs: ['en', 'cz', 'pl'],
         fallbackLng: "en",
         detection: {
-            order: ['cookie', 'htmlTag', 'localStorage', 'path', 'subdomain'],
+            order: ['path', 'cookie', 'htmlTag', 'localStorage', 'subdomain'],
             caches: ['cookies'],
         },
         backend: {
             loadPath: '/assets/locales/{{lng}}/translation.json', 
         },
-        react: { useSuspense: false },
-    });
+});
+
+const loadingMarkup = (
+  <div className="loadingMarkup">
+    <div className="loader">Loading...</div>
+  </div>
+)
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Suspense fallback={loadingMarkup}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Suspense>,
   document.getElementById('root')
 );

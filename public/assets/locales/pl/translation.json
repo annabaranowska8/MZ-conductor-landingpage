@@ -8,12 +8,15 @@
     "menu_gallery": "Galeria",
     "menu_contact": "Kontakt",
 
-    "title_concerts": "jbjcbabcabsckjb",
+    "title_concerts": "Koncerty",
     "calendar_date_zlin": "Maj 19, 2022",
     "calendar_date_warsaw": "Czerwiec 26, 2021",
     "calendar_name_zlin": "Festiwal Talentinum",
     "calendar_name_warsaw": "Koncert dyplomowy",
     "calendar_place_zlin": "Filharmonia BOHUSLAVA MARTINŮ, Zlín",
     "calendar_place_warsaw": "Polska Orkiestra Radiowa, Warszawa",
-    "calendar_more": "Pokaż szczegóły..."
+    "calendar_more": "Pokaż szczegóły...",
+
+    "title_biography": "Biografia",
+    "biography_content": "ghj"
 }

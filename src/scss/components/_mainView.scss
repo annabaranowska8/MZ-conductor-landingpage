@@ -61,10 +61,13 @@
         .socialMedia {
             height: 20px;
             width: 20px;
-            margin: 0 30px;
+            margin: 0 10px;
             display: flex;
             justify-content: center;
             align-items: center;
+            &:first-child {
+                margin-left: 26px;
+            }
             a {
                 color: $color-white;
                 font-size: 18px;
@@ -92,7 +95,6 @@
             display: flex;
             align-self: center;
             justify-content: end;
-            width: 65%;
         }
         .socialMedia__emptyDiv {
             display: flex;
@@ -141,12 +143,12 @@
         .socialMedia {
             height: 20px;
             width: 20px;
-            margin: 0 20px;
+            margin: 0 10px;
             display: flex;
             justify-content: center;
             align-items: center; 
-            &:last-child {
-                margin-right: 60px;
+            &:first-child {
+                margin-left: 26px;
             }
             a {
                 color: $color-white;
@@ -308,13 +310,12 @@
         font-size: 16px;
         font-family: "Raleway", sans-serif;
         width: 100%;
-        margin-left: 50px;
     }
     .main .main__socialMedia--scroll .socialMedia__navbar .navbar--sm .navbar__ul--sm .navbar__li--sm:first-child a {
         text-decoration: none;
         text-transform: uppercase;
         // width: auto;
-        padding: 3px;
+        padding: 30px;
         outline: none;
         transition: 0.7s;
     }
@@ -745,10 +746,10 @@
     color: $color-white;
     border: none;
     margin-right: 10px;
-    padding: 0 20px;
+    padding: 0 6px;
     cursor: pointer;
     font-family: sans-serif;
-    &:hover, &:active {
+    &:hover, &:active, &:focus {
         color: $color-main;
     }
     &:last-child {

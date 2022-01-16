@@ -1,13 +1,16 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const BiographyShort = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="biography" id="biography">
             <div className="biography__content">
                 <div className="biography__content--left">
                     <div className="biography__content--left__content">
-                        <h2 className="biography__content--title">Biography</h2>
+                        <h2 className="biography__content--title">{ t ("title_biography")}</h2>
                         <p className="biography__content--text">Martyna Zych is one of the most talented young conductor in Poland. Her great passion is Czech music, she is the only one conductor in Poland who has manuscript to Antonín Dvořák Symphony No. 4 in d minor op. 13 due to cooperation with Antonín Dvořák’s Museum in Prague. She wrote a consistent amount of works about Antonín Dvořák and Bedřich Smetana. Her aim is to conduct with the composer’s truth, therefore she conducts with manuscritps, letters, traditions and the history of Czech.<br/><br/>
                         Martyna Zych is an active condcutor: she was an assistant during the project <span className="nobreak"><em>Smetanowské dny</em></span> with Má Vlast by Bedřich Smetana. Furthermore, she was the assistant of renown conductors like: Jiří Petrdlík, Chuhei Iwasaki, Massimiliano Caldi, Dawid Runtz. In addition, she has developed successful experience with the most famous orchestras in Czech Republic and Poland:<br/><br/>
                         – The Pilsen Philharmonic (02/2021) <br/>
