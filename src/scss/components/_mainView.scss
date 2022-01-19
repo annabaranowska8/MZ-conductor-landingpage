@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100vw;
+    width: 80vw;
     background-color: $color-black;
     position: relative;
     .angleDouble {
@@ -44,10 +44,16 @@
         z-index: 9;
         position: fixed;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         background-color: $color-black-almost;
         border-bottom: 1px solid lighten($color-black-almost, 50%);
+        .navbar__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            width: 1366px;
+
         .socialMedia__navbar {
             display: none;
             z-index: -9999;
@@ -79,6 +85,7 @@
             }
         }
     }
+    }
     .main__socialMedia--scroll {
         height: 90px;
         width: 100%;
@@ -91,6 +98,12 @@
         background-color: $color-black-almost;
         border-bottom: 1px solid lighten($color-main, 20%);
         transition: 1s;
+        .navbar__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            width: 1366px;
+
         .socialMedia--sm {
             display: flex;
             align-self: center;
@@ -98,7 +111,7 @@
         }
         .socialMedia__emptyDiv {
             display: flex;
-            width: 65%;
+            width: 0%;
         }
         .socialMedia__navbar {
             // display: flex;
@@ -159,6 +172,7 @@
                     transition: 0.7s;
                 }
             }
+        }
         }
     }
 

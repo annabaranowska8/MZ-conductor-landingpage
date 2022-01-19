@@ -88,24 +88,27 @@ const handleLanguageChange = (e, code) => {
                 <div className={bars ? "bars" : "bars__none"} onClick={() => {setTurnOnMobileNavMenu(prev => !prev)}} >{menu}</div>
                 <NavbarMobile customClass={turnOnMobileNavMenu ? "on" : "off"} />
                 <div className={`${scroll ? "main__socialMedia--scroll" : (bars ? "bars__noMenu" : (scrollMobile ? "main__socialMedia--Mobile" : "main__socialMedia"))}`}>
+                    <div className="navbar__container">
                 {/* <div className={`${scroll ? "main__socialMedia--scroll" : "main__socialMedia"}`}> */}
-                    <div className="socialMedia__emptyDiv"/>
-                    <div className="socialMedia--sm">
-                        <div className="socialMedia"><a href="https://www.facebook.com/martyna.zych.conductor">{facebook}</a></div>
-                        <div className="socialMedia"><a href="https://www.instagram.com/martyna.zych_conductor/">{instagram}</a></div>
-                        <div className="socialMedia"><a href="https://www.linkedin.com/in/martyna-zych-b69a4514a/">{linkedIn}</a></div>
+                        <div className="socialMedia__emptyDiv"/>
+                        <div className="socialMedia--sm">
+                            <div className="socialMedia"><a href="https://www.facebook.com/martyna.zych.conductor">{facebook}</a></div>
+                            <div className="socialMedia"><a href="https://www.instagram.com/martyna.zych_conductor/">{instagram}</a></div>
+                            <div className="socialMedia"><a href="https://www.linkedin.com/in/martyna-zych-b69a4514a/">{linkedIn}</a></div>
+                        </div>
+                        {/* <div className="language-select">
+                            <Select className="custom-select" options={options}/>
+                        </div> */}
+                        <div className="socialMedia__navbar">
+                            <Navbar />
+                        </div>
+                        <div className="language-select">
+                            {languages.map(({ code, country_code }) => (
+                            <a className={`custom-select ${code}`} key={country_code} onClick={e => handleLanguageChange(e, code)} disabled={code === currentLanguageCode} style={{textTransform: 'uppercase', color: code === currentLanguageCode ? "#ffbc04" : ""}}>{code}</a>
+                            ))}
+                        </div>
                     </div>
-                    {/* <div className="language-select">
-                        <Select className="custom-select" options={options}/>
-                    </div> */}
-                    <div className="socialMedia__navbar">
-                        <Navbar />
-                    </div>
-                    <div className="language-select">
-                        {languages.map(({ code, country_code }) => (
-                        <a className={`custom-select ${code}`} key={country_code} onClick={e => handleLanguageChange(e, code)} disabled={code === currentLanguageCode} style={{textTransform: 'uppercase', color: code === currentLanguageCode ? "#ffbc04" : ""}}>{code}</a>
-                        ))}
-                    </div>
+
 
                 </div>
             </div>

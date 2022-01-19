@@ -14,13 +14,15 @@ const Contact = () => {
     return (
         <>
         <div className="contact" id="contact">
-            <div className="contact__container">
-                <div className="contact__container--aboutme">
-                    <h3>{ t ("about")}<span>{ t ("about_MartynaZych")}</span></h3>
-                    <p>{ t ("about_content")}</p>
+            <div className="contact__container__boxes">
+                <div className="contact__container">
+                    <div className="contact__container--aboutme">
+                        <h3>{ t ("about")}<span>{ t ("about_MartynaZych")}</span></h3>
+                        <p>{ t ("about_content")}</p>
+                    </div>
                 </div>
-            </div>
-            <div className="contact__container">
+                <div className="contact__container">                
+
                 <div className="contact__container--contact">
                     <h3>{ t ("contact")}</h3>
                     <div className="contact--links">
@@ -32,6 +34,7 @@ const Contact = () => {
                         </div>                        
                     </div>
                 </div>
+            </div>
             </div>
         </div>
         <footer className="contact__footer">
