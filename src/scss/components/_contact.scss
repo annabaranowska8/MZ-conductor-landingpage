@@ -5,6 +5,7 @@
     background-color: $color-black-almost;
     color: darken($color-white, 10%);
     font-family: $font-raleway;
+    line-height: 18px;
 
     .contact__container {
         box-sizing: border-box;
@@ -128,16 +129,16 @@
             }
             &:last-child {
                 width: 100%;
-                padding: 20px 0 0 0;
+                padding: 0 20px;
                 display: flex;
                 justify-content: center;
             }
             h3 {
                 text-align: center;
             }
-            .contact--links {
-                padding: 15px;
-            }
+            // .contact--links {
+            //     padding: 15px;
+            // }
         }
     }
     .contact__container--aboutme {
@@ -148,12 +149,14 @@
     .contact .contact__container:last-child .contact__container--contact h3 {
         font-weight: 700;
         text-transform: uppercase;
-        padding: 20px 0 10px 0;
     }
     .contact .contact__container:last-child .contact__container--contact .contact__socialMedia {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        .socialMedia {
+            padding: 12px 15px 0;
+        }
     }
 }
 @media screen and (max-width: $md-max-width) {

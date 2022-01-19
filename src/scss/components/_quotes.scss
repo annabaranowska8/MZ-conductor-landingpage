@@ -30,13 +30,16 @@
             font-size: 25px;
             padding: 50px 0px 40px 0px;
             text-align: center;
+            width: 40%;
         }
         .quotes__container--decoration {
             font-size: 35px;
         }
     }
 }
-@media screen and (max-width: $lg-max-width) {
+    //TODO: WIDTH IN QUOTE
+
+@media screen and (max-width: $md-max-width) {
     .quotes .quotes__container {
         color: #fff;
         display: flex;
@@ -45,6 +48,12 @@
         z-index: 1;
         text-align: center;
         padding: 50px;
+    
+    .quotes__container--singleQuote {
+        font-size: 20px;
+        padding: 50px 0px 40px 0px;
+        text-align: center;
+        width: 80%;
     }
 }
 @media screen and (max-width: 430px) {
@@ -52,7 +61,7 @@
         font-size: 30px;
     }
     .quotes .quotes__container .quotes__container--singleQuote {
-        font-size: 14px;
+        font-size: 16px;
         padding: 26px 0px 40px 0px;
         text-align: center;
     }
@@ -61,4 +70,5 @@
         font-size: 15px;
         color: #ffbc04;
     }
+}
 }

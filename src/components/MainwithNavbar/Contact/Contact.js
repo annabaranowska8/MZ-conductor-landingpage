@@ -3,24 +3,26 @@ import { FontAwesomeIcon } from '../../../../node_modules/@fortawesome/react-fon
 import { faFacebookF } from '../../../../node_modules/@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '../../../../node_modules/@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '../../../../node_modules/@fortawesome/free-brands-svg-icons';
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
     const facebook = <FontAwesomeIcon icon={faFacebookF} />
     const instagram = <FontAwesomeIcon icon={faInstagram} />
     const linkedIn = <FontAwesomeIcon icon={faLinkedinIn} />
+    const { t } = useTranslation();
 
     return (
         <>
         <div className="contact" id="contact">
             <div className="contact__container">
                 <div className="contact__container--aboutme">
-                    <h3>About <span>Martyna Zych</span></h3>
-                    <p>Martyna Zych is very go-getter, energetic and full of passion conductor. During the work she is industrious, precise and indictable person. She speaks English, Czech and Polish.</p>
+                    <h3>{ t ("about")}<span>{ t ("about_MartynaZych")}</span></h3>
+                    <p>{ t ("about_content")}</p>
                 </div>
             </div>
             <div className="contact__container">
                 <div className="contact__container--contact">
-                    <h3>Contact</h3>
+                    <h3>{ t ("contact")}</h3>
                     <div className="contact--links">
                         <p className="email-address-container"><span className="email-text">email: </span><span className="email-address-text">martynazy&#99;h&#46;&#99;on&#100;uctor&#64;g&#109;ail&#46;com</span></p>
                         <div className="contact__socialMedia">
