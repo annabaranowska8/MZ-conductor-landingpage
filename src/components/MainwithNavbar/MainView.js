@@ -48,7 +48,11 @@ const MainView = () => {
         {/* {console.log("setBars", setBars )} */}
         <div className="main">
             <div className="angleDouble">{angleDouble}</div>
-            <div className={bars ? "bars__header" : "bars__none"}>
+            <div className={
+                // bars ? 
+                "bars__header" 
+                // : "bars__none"
+                }>
                 <div className={bars ? "bars" : "bars__none"} onClick={() => {setTurnOnMobileNavMenu(prev => !prev)}} >{menu}</div>
                 <NavbarMobile customClass={turnOnMobileNavMenu ? "on" : "off"} />
                 <div className={`${scroll ? "main__socialMedia--scroll" : (bars ? "bars__noMenu" : (scrollMobile ? "main__socialMedia--Mobile" : "main__socialMedia"))}`}>

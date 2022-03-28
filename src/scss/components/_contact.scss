@@ -19,7 +19,7 @@
                 padding-bottom: 30px;
                 color: $color-white;
                 span {
-                    color: $color-dark-blue;
+                    color: $color-main;
                 }
             }
             p {
@@ -43,11 +43,11 @@
                 }
                 .email-address-container .email-address-text {
                     letter-spacing: 2px;
-                    color: $color-dark-blue;
+                    color: $color-main;
                 }
                 .contact__socialMedia {
                     display: flex;
-                    flex-direction: column;
+                    flex-direction: row;
 
                     .socialMedia {
                         display: flex;
@@ -58,7 +58,7 @@
                             font-size: 23px;
                             transition: 0.7s;
                             &:hover {
-                                color: $color-dark-blue;
+                                color: $color-main;
                                 transition: 0.7s;
                             }
                         }
@@ -99,11 +99,11 @@
 
     }
     a {
-        color: darken($color-dark-blue, 20%);
+        color: darken($color-main, 20%);
         text-decoration: none;
         transition: 0.7s;
         &:hover {
-            color: $color-dark-blue;
+            color: $color-main;
             transition: 0.7s;
         }
     }
