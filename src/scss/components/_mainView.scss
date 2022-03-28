@@ -21,7 +21,7 @@
     position: relative;
     .angleDouble {
         position: absolute;
-        color: $color-dark-blue;
+        color: $color-main;
         z-index: 999;
         font-size: 35px;
         bottom: 3%;
@@ -70,7 +70,7 @@
                 font-size: 18px;
                 transition: 0.7s;
                 &:hover {
-                    color: $color-dark-blue;
+                    color: $color-main;
                     transition: 0.7s;
                 }
             }
@@ -86,7 +86,7 @@
         justify-content: space-evenly;
         align-items: center;
         background-color: $color-black-almost;
-        border-bottom: 1px solid lighten($color-dark-blue, 20%);
+        border-bottom: 1px solid lighten($color-main, 20%);
         transition: 1s;
         .socialMedia--sm {
             display: flex;
@@ -128,8 +128,8 @@
             
             
                         &:hover, &:active {
-                            color: $color-dark-blue;
-                            // border-bottom: 1px solid $color-dark-blue;
+                            color: $color-main;
+                            // border-bottom: 1px solid $color-main;
                             transition: 1s;
                             outline: none;
                         }
@@ -153,7 +153,7 @@
                 font-size: 18px;
                 transition: 0.7s;
                 &:hover {
-                    color: $color-dark-blue;
+                    color: $color-main;
                     transition: 0.7s;
                 }
             }
@@ -230,7 +230,7 @@
                         font-family: $font-amiri;
                         margin-bottom: 40px;
                         span {
-                            color: $color-dark-blue;
+                            color: $color-main;
                         }                        
                     }
                 }
@@ -246,7 +246,7 @@
                         font-family: $font-amiri;
                         margin-bottom: 40px;
                         span {
-                            color: $color-dark-blue;
+                            color: $color-main;
                         }                        
                     }
                 }
@@ -282,7 +282,7 @@
                             cursor: default;
 
                             &:hover {
-                                color: darken($color-dark-blue, 25%);
+                                color: darken($color-main, 25%);
                                 transition: 0.7s;
                             }
                         }
@@ -469,7 +469,7 @@
         justify-content: space-evenly;
         align-items: center;
         background-color: $color-black-almost;
-        border-bottom: 1px solid lighten($color-dark-blue, 20%);
+        border-bottom: 1px solid lighten($color-main, 20%);
         transition: 1s;
         .socialMedia--sm {
             display: flex;
@@ -510,8 +510,8 @@
             
             
                         &:hover, &:active {
-                            color: $color-dark-blue;
-                            // border-bottom: 1px solid $color-dark-blue;
+                            color: $color-main;
+                            // border-bottom: 1px solid $color-main;
                             transition: 1s;
                             outline: none;
                         }
@@ -535,7 +535,7 @@
                 font-size: 18px;
                 transition: 0.7s;
                 &:hover {
-                    color: $color-dark-blue;
+                    color: $color-main;
                     transition: 0.7s;
                 }
             }
@@ -553,7 +553,7 @@
         justify-content: space-evenly;
         align-items: center;
         background-color: $color-black-almost;
-        border-bottom: 1px solid lighten($color-dark-blue, 20%);
+        border-bottom: 1px solid lighten($color-main, 20%);
         transition: 1s;
         .socialMedia--sm {
             display: flex;
@@ -596,8 +596,8 @@
             
             
                         &:hover, &:active {
-                            color: $color-dark-blue;
-                            // border-bottom: 1px solid $color-dark-blue;
+                            color: $color-main;
+                            // border-bottom: 1px solid $color-main;
                             transition: 1s;
                             outline: none;
                         }
@@ -621,7 +621,7 @@
                 font-size: 18px;
                 transition: 0.7s;
                 &:hover {
-                    color: $color-dark-blue;
+                    color: $color-main;
                     transition: 0.7s;
                 }
             }
