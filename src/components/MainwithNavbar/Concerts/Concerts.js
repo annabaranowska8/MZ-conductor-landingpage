@@ -16,6 +16,14 @@ const Concerts = () => {
                         </a>       
                     </li>
                     <li className="single_event_list">
+                        <a>
+                            <div className="event_list_entry event_date">April 3, 2022</div>
+                            <div className="event_list_entry event_event">"Sound of hope"</div>
+                            <div className="event_list_entry event_location">Church "Podwyższenia Krzyża", Rzeszów</div>
+                            <div className="event_list_entry event_program">Concert played by ukrainian musicians</div>
+                        </a>       
+                    </li>
+                    <li className="single_event_list">
                         <a href="https://chopin.edu.pl/szczegoly-wydarzenia/233_koncert-dyplomantow-umfc-z-udzialem-orkiestry-polskiego-radia-w-warszawie" target="_blank">
                             <div className="event_list_entry event_date">June 26, 2021</div>
                             <div className="event_list_entry event_event">Diploma Concert</div>
