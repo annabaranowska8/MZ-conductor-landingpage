@@ -1,6 +1,6 @@
 .concerts {
     // margin-top: 2px;
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@
                 background-color: lighten($color-black, 50%);
                 // border-radius: 2px;
 
-                &:first-child {
+                &:nth-child(2) {
                     // text-transform: uppercase;
                     a {
                     color: $color-main;
@@ -74,26 +74,40 @@
                     border-left: 5px solid lighten($color-white, 10%);
                     .event_list_entry {
                         padding: 30px 40px;
+                        width: 25%;
                         &:nth-child(2) {
                             text-transform: uppercase;
                         }
-                    }
-                    .event_date {
-                        width: 13%;
-                    }
-                    .event_event {
-                        width: 30%;
-                    }
-                    .event_location {
-                        width: 35%;
-                    }
-                    .event_program {
-                        width: 22%;
+                        
                     }
                     &:hover {
                         background-color: lighten($color-black, 25%);
                         transition: 0.7s;
                         border-left: 5px solid $color-main;
+
+                    }
+                }
+                .event_list_container {
+                    display: flex; 
+                    align-items: center;
+                    text-align: center;
+                    text-decoration: none;
+                    color: $color-dark-blue;
+                    font-family:  $font-raleway;
+                    font-size: 18px;
+                    border-left: 5px solid lighten($color-white, 10%);
+                    .event_list_entry {
+                        padding: 30px 40px;
+                        width: 25%;
+                        &:nth-child(2) {
+                            text-transform: uppercase;
+                        }
+                        
+                    }
+                    &:hover {
+                        background-color: lighten($color-black, 25%);
+                        transition: 0.7s;
+                        border-left: 5px solid $color-dark-blue;
 
                     }
                 }
@@ -104,14 +118,14 @@
 @media screen and (max-width: $xl-max-width) {
     .concerts .concerts__container .concerts__container--events_list .single_event_list a .event_list_entry {
         padding: 20px;
-        // width: 25%;
+        width: 25%;
     }
 }
 @media screen and (max-width: $lg-max-width) {
     .concerts .concerts__container .concerts__container--events_list {
         display: flex;
         flex-direction: column;
-        // width: 85%;
+        width: 85%;
     }
 }
 .concerts .concerts__container .concerts__container--title {
@@ -137,7 +151,7 @@
     .concerts .concerts__container .concerts__container--events_list {
         display: flex;
         flex-direction: column;
-        // width: 90%;
+        width: 90%;
     }
     .concerts .concerts__container .concerts__container--title {
         font-size: 50px;
@@ -152,7 +166,7 @@
 @media screen and (max-width: 650px) {
     .concerts .concerts__container .concerts__container--events_list .single_event_list a .event_list_entry {
         padding: 15px;
-        // width: 25%;
+        width: 25%;
     }
     .concerts .concerts__container .concerts__container--events_list .single_event_list a {
         display: flex;
@@ -168,7 +182,7 @@
 @media screen and (max-width: 590px) {
     .concerts .concerts__container .concerts__container--events_list .single_event_list a .event_list_entry {
         padding: 13px;
-        // width: 25%;
+        width: 25%;
     }
     .concerts .concerts__container .concerts__container--events_list .single_event_list a {
         display: flex;
@@ -194,13 +208,15 @@
     .concerts .concerts__container .concerts__container--events_list .single_event_list:first-child {
         text-transform: none;
     }
-    .concerts .concerts__container .concerts__container--events_list {
-        width: 98%;
-    }
 }
 @media screen and (max-width: 375px) {
     .concerts .concerts__container .concerts__container--events_list .single_event_list a .event_list_entry {
         padding: 4px;
-        // width: 25%;
+        width: 25%;
+    }
+    .concerts .concerts__container .concerts__container--events_list {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
     }
 }
