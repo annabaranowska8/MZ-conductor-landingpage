@@ -9,23 +9,26 @@
     "menu_contact": "Contact",
 
     "title_concerts": "Concerts",
+    "calendar_more": "More details...",
+
     "calendar_date_zlin": "May 19, 2022",
     "calendar_name_zlin": "Talentinum Festival",
     "calendar_place_zlin": "Philharmonie Bohuslava Martinů, Zlin",
+    "calendar_website_zlin": "https://www.filharmonie-zlin.cz/951a-a7-talentinum-2022",
+
+    "calendar_date_rzeszow": "June 3, 2022",
+    "calendar_name_rzeszow": "Sound of hope",
+    "calendar_place_rzeszow": "Church \"Podwyższenia Krzyża\", Rzeszow",
+    "calendar_more_rzeszow": "A concert played by Ukrainian musicians",
+
     "calendar_date_warsaw": "June 26, 2021",
     "calendar_name_warsaw": "Diploma Concert",
     "calendar_place_warsaw": "Polish Radio Symphony Orchestra, Warsaw",
-    "calendar_more": "More details...",
+    "calendar_website_warsaw": "https://chopin.edu.pl/szczegoly-wydarzenia/233_koncert-dyplomantow-umfc-z-udzialem-orkiestry-polskiego-radia-w-warszawie",
+
 
     "title_biography": "Biography",
-    "biography_one": "Martyna Zych is one of the most talented young conductor in Poland. Her great passion is Czech music, she is the only one conductor in Poland who has manuscript to Antonín Dvořák Symphony No. 4 in d minor op. 13 due to cooperation with Antonín Dvořák’s Museum in Prague. She wrote a consistent amount of works about Antonín Dvořák and Bedřich Smetana. Her aim is to conduct with the composer’s truth, therefore she conducts with manuscritps, letters, traditions and the history of Czech.",
-    "biography_two": "Martyna Zych is active condcutor: she was assistant during the project Smetanowské dny with Má Vlast by Bedřich Smetana, furthermore, she was assistant of renown conductors like: Jiří Petrdlík, Chuhei Iwasaki, Massimiliano Caldi, Dawid Runtz. Additionally, she has a lot of successful experience with the most famous orchestras in Czech Republic and Poland:",
-    "biography_three": "– Pilsen Philharmonic (02/2021)",
-    "biography_four": "– Rzeszów Philharmonic (2018 – 2021)",
-    "biography_five": "– Polish Radio Symphony Orchestra (2016 – 2021)",
-    "biography_six": "In the 2021/2022 season, Martyna Zych will debut with the Bohuslav Martinů Philharmonic during the Talentinum Festival.",
-    "biography_seven": "She studied at the Fryderyk Chopin University of Music in Warsaw in conducting class of prof. Tomasz Bugaj and viola of prof. Piotr Reichert. Moreover, she took part in a lot of masterclasses, for example: opera conudcting with Carlo Montanaro, G. Rossini – Stabat Mater with Massimiliano Caldi. Martyna was also conductor during a lot of orchestral courses: International Workshops for teenagers in Szczecin, Janowiec Music Master Courses and Gorlice.",
-    "biography_eight": "As a violist she is a member of Polish Sinfonia Iuventus Orchestra.",
+    "biography": "Martyna Zych is one of the most talented young conductor in Poland. Her great passion is Czech music, she is the only one conductor in Poland who has manuscript to Antonín Dvořák Symphony No. 4 in d minor op. 13 due to cooperation with Antonín Dvořák’s Museum in Prague. She wrote a consistent amount of works about Antonín Dvořák and Bedřich Smetana. Her aim is to conduct with the composer’s truth, therefore she conducts with manuscritps, letters, traditions and the history of Czech.\n\nMartyna Zych is active condcutor: she was assistant during the project Smetanowské dny with Má Vlast by Bedřich Smetana, furthermore, she was assistant of renown conductors like: Jiří Petrdlík, Chuhei Iwasaki, Massimiliano Caldi, Dawid Runtz. Additionally, she has a lot of successful experience with the most famous orchestras in Czech Republic and Poland:\n\n– Pilsen Philharmonic (02/2021)\n– Rzeszów Philharmonic (2018 – 2021)\n– Polish Radio Symphony Orchestra (2016 – 2021)\n\nIn the 2021/2022 season, Martyna Zych will debut with the Bohuslav Martinů Philharmonic during the Talentinum Festival.\n\nShe studied at the Fryderyk Chopin University of Music in Warsaw in conducting class of prof. Tomasz Bugaj and viola of prof. Piotr Reichert. Moreover, she took part in a lot of masterclasses, for example: opera conudcting with Carlo Montanaro, G. Rossini – Stabat Mater with Massimiliano Caldi. Martyna was also conductor during a lot of orchestral courses: International Workshops for teenagers in Szczecin, Janowiec Music Master Courses and Gorlice.\n\nAs a violist she is a member of Polish Sinfonia Iuventus Orchestra.",
 
     "quote": "Her maturation, although still nearing completion given her young age, is very fast and I am sure that in few years she could achieve very significant results.",
     "quote_author": "Massimiliano Caldi",

@@ -8,24 +8,28 @@
     "menu_gallery": "GALERIE",
     "menu_contact": "KONTAKT",
 
+
     "title_concerts": "KALENDÁŘ",
+    "calendar_more": "Kliknutím zobrazíte další podrobnosti...",
+
     "calendar_date_zlin": "Květen 19, 2022",
     "calendar_name_zlin": "Festidgfdgwal Talentinum",
-    "calendar_place_zlin": "Filharmonia BOHUSLAVA MARTINŮ, Zlín",
+    "calendar_place_zlin": "Filharmonie BOHUSLAVA MARTINŮ, Zlín",
+    "calendar_website_zlin": "https://www.filharmonie-zlin.cz/951a-a7-talentinum-2022",
+
+    "calendar_date_rzeszow": "Duben 3, 2022",
+    "calendar_name_rzeszow": "Zvuky naděje",
+    "calendar_place_rzeszow": "Kostel \"Podwyższenia Krzyża\", Rzeszow",
+    "calendar_more_rzeszow": "Koncert hraný ukrajinskými hudebníky",
+
     "calendar_date_warsaw": "Červen 26, 2021",
     "calendar_name_warsaw": "Diplomový recitál",
-    "calendar_place_warsaw": "Polska Orkiestra Radiowa, Warszawa",
-    "calendar_more": "Pokaż szczegóły...",
+    "calendar_place_warsaw": "Polský Rozhlasový Orchestr, Varšava",
+    "calendar_website_warsaw": "https://chopin.edu.pl/szczegoly-wydarzenia/233_koncert-dyplomantow-umfc-z-udzialem-orkiestry-polskiego-radia-w-warszawie",
+
 
     "title_biography": "ŽIVOTOPIS",
-    "biography_one": "Martyna Zych je ambiciózní polská dirigentka zaměřená na českou hudbu. Vystudovala symfonické a operní dirigování na Hudební univerzitě Fryderyka Chopina ve Varšavě ve třídě prof. Tomasze Bugaje a violu ve třídě prof. Piotr Reichert. Díky spolupráci s Muzeem Antonína Dvořáka v Praze má rukopis Symfonie č. 4 d moll op. 13 Antonína Dvořáka, o které psala diplomovou práci. Napsala mnoho analytických prací o dílech českých skladatelů, porovnávala partitury s rukopisy, dopisy a historií. Při práci na českém repertoáru dbá především na pravdivost provedení v souladu se skladatelovými záměry a tradicí jeho země. Martyna Zych byla vybrána jako dirigentka festivalu Talentinum s Filharmonií Bohuslava Martinů ve Zlíně, kde bude v květnu 2022 pracovat s mladými českými sólisty. Je zakladatelkou a spoluzakladatelkou orchestru pro hudebníky-uprchlíky z Ukrajiny. První koncert se uskutečnil 3. dubna 2022 v Rzeszówě, který skončil velkým úspěchem a návrhy dalších koncertů pro orchestr.",
-    "biography_two": "Mnohokrát byla asistentkou českých a polských dirigentů, např. Jiřího Petdlíka, Chuheie Iwasakiho, Massimiliana Caldiho nebo Dawida Runtze. Spolupracovala s: Divadlem v Pilzni, Filharmonií Plzeň (Má vlast Bedřicha Smetany na festivalu Smetanovské dny), Orchestrem Polského rozhlasu, Podkarpatskou filharmonií a Akademickým orchestrem Univerzity hudebních umění Fryderyka Chopina.",
-    "biography_three": "Jako asistentka měla možnost seznámit se s mnoha interpretačními tradicemi tvorby Antonína Dvořáka a Bedřicha Smetany a rozšířit si znalosti o české hudbě při setkáních s českými osobnostami jako jsou napr: Tomáš Brauner, Veronika Vejvodová a Norbert Baxa. Martyna navíc mluví plynně česky, takže může bez problémů spolupracovat s českými sólisty. Kromě toho jako violistka v polském Sinfonia Iuventus Orchestra Jerzy Semkow, má možnost pracovat s vynikajícími dirigenty na širokém repertoáru z praktického i interpretačního hlediska. Je to člověk plný energie, který chce předávat své upřímné nadšení orchestrálním hudebníkům a šířit interpretační pravdu české hudby.",
-    "biography_four": "",
-    "biography_five": "",
-    "biography_six": "",
-    "biography_seven": "",
-    "biography_eight": "",
+    "biography": "Martyna Zych je ambiciózní polská dirigentka zaměřená na českou hudbu. Vystudovala symfonické a operní dirigování na Hudební univerzitě Fryderyka Chopina ve Varšavě ve třídě prof. Tomasze Bugaje a violu ve třídě prof. Piotr Reichert. Díky spolupráci s Muzeem Antonína Dvořáka v Praze má rukopis Symfonie č. 4 d moll op. 13 Antonína Dvořáka, o které psala diplomovou práci. Napsala mnoho analytických prací o dílech českých skladatelů, porovnávala partitury s rukopisy, dopisy a historií. Při práci na českém repertoáru dbá především na pravdivost provedení v souladu se skladatelovými záměry a tradicí jeho země. Martyna Zych byla vybrána jako dirigentka festivalu Talentinum s Filharmonií Bohuslava Martinů ve Zlíně, kde bude v květnu 2022 pracovat s mladými českými sólisty. Je zakladatelkou a spoluzakladatelkou orchestru pro hudebníky-uprchlíky z Ukrajiny. První koncert se uskutečnil 3. dubna 2022 v Rzeszówě, který skončil velkým úspěchem a návrhy dalších koncertů pro orchestr.\n\nMnohokrát byla asistentkou českých a polských dirigentů, např. Jiřího Petdlíka, Chuheie Iwasakiho, Massimiliana Caldiho nebo Dawida Runtze. Spolupracovala s: Divadlem v Pilzni, Filharmonií Plzeň (Má vlast Bedřicha Smetany na festivalu Smetanovské dny), Orchestrem Polského rozhlasu, Podkarpatskou filharmonií a Akademickým orchestrem Univerzity hudebních umění Fryderyka Chopina.\n\nJako asistentka měla možnost seznámit se s mnoha interpretačními tradicemi tvorby Antonína Dvořáka a Bedřicha Smetany a rozšířit si znalosti o české hudbě při setkáních s českými osobnostami jako jsou napr: Tomáš Brauner, Veronika Vejvodová a Norbert Baxa. Martyna navíc mluví plynně česky, takže může bez problémů spolupracovat s českými sólisty. Kromě toho jako violistka v polském Sinfonia Iuventus Orchestra Jerzy Semkow, má možnost pracovat s vynikajícími dirigenty na širokém repertoáru z praktického i interpretačního hlediska. Je to člověk plný energie, který chce předávat své upřímné nadšení orchestrálním hudebníkům a šířit interpretační pravdu české hudby.",
 
     "quote": "Její detailní znalost tvorby českých autorů, doplněná upřímným a intenzivním zájmem o českou hudební kulturu, ji předurčuje nejen k umělecké činnosti v českém hudebním prostředí",
     "quote_author": "Jiří Petrdlík",

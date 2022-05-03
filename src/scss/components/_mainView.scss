@@ -426,7 +426,7 @@
         &::before {
             content: "";
             height: calc(100% - 29px);
-            width: 100%;
+            width: 100vw;
             background-color: $color-black;
             opacity: 0.5;
             position: absolute;

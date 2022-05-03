@@ -10,7 +10,7 @@ const App = () => {
     return (
         <BrowserRouter>
             <Route exact path="/" component={Main}/>
-            <Route path="/biography" component={Biography}/>
+            {/* <Route path="/biography" component={Biography}/> */}
         </BrowserRouter>
     )
 }
