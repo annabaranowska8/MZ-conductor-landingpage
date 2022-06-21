@@ -59,6 +59,10 @@
 }
 }
 @media screen and (max-width: $lg-max-width) {
+    
+    .language-select {
+        margin-left: 26px;
+    }
     .navbar {
         display: none;
     }
@@ -88,7 +92,7 @@
             padding: 0 53px 0 0;
         }
         .socialMedia--sm {
-            display: flex;
+            display: none;
             padding: 0 0 0 25px;
             .socialMedia {
                 padding: 0 20px;

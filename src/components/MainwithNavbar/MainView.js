@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Component } from "react";
 import Navbar from "./Navbar";
 import NavbarLower from "./NavbarLower";
 import { FontAwesomeIcon } from '../../../node_modules/@fortawesome/react-fontawesome';
 import { faFacebookF } from '../../../node_modules/@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '../../../node_modules/@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '../../../node_modules/@fortawesome/free-brands-svg-icons';
-import { faAngleDoubleDown } from '../../../node_modules/@fortawesome/free-solid-svg-icons';
+import { faAngleDoubleDown, faCookie } from '../../../node_modules/@fortawesome/free-solid-svg-icons';
 import { faBars } from '../../../node_modules/@fortawesome/free-solid-svg-icons';
-import NavbarMobile from './NavbarMobile';
+import NavbarMobile from './NavbarMobile'; 
+import { useTranslation } from "react-i18next";
+import i18next from "i18next"; 
+import cookies from "js-cookie";
 
-const MainView = () => {
-
+const MainView = (props) => {
     const facebook = <FontAwesomeIcon icon={faFacebookF} />
     const instagram = <FontAwesomeIcon icon={faInstagram} />
     const linkedIn = <FontAwesomeIcon icon={faLinkedinIn} />
@@ -18,9 +20,31 @@ const MainView = () => {
     const menu = <FontAwesomeIcon icon={faBars} />
 
     const [ scroll, setScroll] = useState();
-    const [ scrollMobile, setScrollMobile ] = useState()
+    const [ scrollMobile, setScrollMobile ] = useState();
     const [ bars, setBars ] = useState();
     const [turnOnMobileNavMenu, setTurnOnMobileNavMenu] = useState(false);
+
+    const languages = [
+        {
+            code: 'en',
+            name: 'English',
+            country_code: 'gb'
+        },
+        {
+            code: 'cz',
+            name: 'čeština',
+            country_code: 'cz'
+        },
+        {
+            code: 'pl',
+            name: 'Polski',
+            country_code: 'pl'
+        }
+    ]
+
+    const { t } = useTranslation();
+    const currentLanguageCode = cookies.get("i18next") || "en";
+    const currentLanguage = languages.find(l => l.code === currentLanguageCode);
     
     useEffect(() => {
         window.innerWidth >= 993 && setScroll(window.scrollY > 80);
@@ -37,9 +61,17 @@ const MainView = () => {
         setScrollMobile(window.innerWidth < 993);
         setBars(window.innerWidth < 993);
         }, { passive: true });
-    }, []);;
+    }, []);
 
+    useEffect(() => {
+        document.body.dir = currentLanguage.dir || "ltr"
+    }, [currentLanguage]);
 
+const handleLanguageChange = (e, code) => {
+    // e.preventDefault();
+    i18next.changeLanguage(code)
+    cookies.set('i18next', code)
+}
 
     return (
         <>
@@ -56,16 +88,28 @@ const MainView = () => {
                 <div className={bars ? "bars" : "bars__none"} onClick={() => {setTurnOnMobileNavMenu(prev => !prev)}} >{menu}</div>
                 <NavbarMobile customClass={turnOnMobileNavMenu ? "on" : "off"} />
                 <div className={`${scroll ? "main__socialMedia--scroll" : (bars ? "bars__noMenu" : (scrollMobile ? "main__socialMedia--Mobile" : "main__socialMedia"))}`}>
+                    <div className="navbar__container">
                 {/* <div className={`${scroll ? "main__socialMedia--scroll" : "main__socialMedia"}`}> */}
-                    <div className="socialMedia__emptyDiv"></div>
-                    <div className="socialMedia__navbar">
-                        <Navbar />
+                        <div className="socialMedia__emptyDiv"/>
+                        <div className="socialMedia--sm">
+                            <div className="socialMedia"><a href="https://www.facebook.com/martyna.zych.conductor">{facebook}</a></div>
+                            <div className="socialMedia"><a href="https://www.instagram.com/martyna.zych_conductor/">{instagram}</a></div>
+                            <div className="socialMedia"><a href="https://www.linkedin.com/in/martyna-zych-b69a4514a/">{linkedIn}</a></div>
+                        </div>
+                        {/* <div className="language-select">
+                            <Select className="custom-select" options={options}/>
+                        </div> */}
+                        <div className="socialMedia__navbar">
+                            <Navbar />
+                        </div>
+                        <div className="language-select">
+                            {languages.map(({ code, country_code }) => (
+                            <a className={`custom-select ${code}`} key={country_code} onClick={e => handleLanguageChange(e, code)} disabled={code === currentLanguageCode} style={{textTransform: 'uppercase', color: code === currentLanguageCode ? "#ffbc04" : ""}}>{code}</a>
+                            ))}
+                        </div>
                     </div>
-                    <div className="socialMedia--sm">
-                        <div className="socialMedia"><a href="https://www.facebook.com/martyna.zych.conductor">{facebook}</a></div>
-                        <div className="socialMedia"><a href="https://www.instagram.com/martyna.zych_conductor/">{instagram}</a></div>
-                        <div className="socialMedia"><a href="https://www.linkedin.com/in/martyna-zych-b69a4514a/">{linkedIn}</a></div>
-                    </div>
+
+
                 </div>
             </div>
             <div className="main__navbar">
@@ -77,7 +121,7 @@ const MainView = () => {
                         <h1>Martyna <span>Zych</span></h1> 
                         </div>
                         <div className="main__navbar--background--right--content">
-                            <h2 className="description">Conductor</h2>
+                            <h2 className="description">{ t ("job_title")}</h2>
                             <div className="description__container">
                                 <div className="description--left">
                                     <p className="description">Antonín Dvořák</p>  
@@ -93,10 +137,8 @@ const MainView = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
             <div className="main__content">
-
             </div>
         </div>
         </>

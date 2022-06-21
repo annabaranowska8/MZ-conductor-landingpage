@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100vw;
+    width: 80vw;
     background-color: $color-black;
     position: relative;
     .angleDouble {
@@ -25,7 +25,7 @@
         z-index: 999;
         font-size: 35px;
         bottom: 3%;
-        left: 50%;
+        left: calc(100vw/2);
         padding: 20px 0;
         margin: auto;
         transform: translateX(-50%);
@@ -48,6 +48,12 @@
         align-items: center;
         background-color: $color-black-almost;
         border-bottom: 1px solid lighten($color-black-almost, 50%);
+        .navbar__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            width: 1366px;
+
         .socialMedia__navbar {
             display: none;
             z-index: -9999;
@@ -61,10 +67,13 @@
         .socialMedia {
             height: 20px;
             width: 20px;
-            margin: 0 30px;
+            margin: 0 10px;
             display: flex;
             justify-content: center;
             align-items: center;
+            &:first-child {
+                margin-left: 26px;
+            }
             a {
                 color: $color-white;
                 font-size: 18px;
@@ -75,6 +84,7 @@
                 }
             }
         }
+    }
     }
     .main__socialMedia--scroll {
         height: 90px;
@@ -88,15 +98,20 @@
         background-color: $color-black-almost;
         border-bottom: 1px solid lighten($color-main, 20%);
         transition: 1s;
+        .navbar__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            width: 1366px;
+
         .socialMedia--sm {
             display: flex;
             align-self: center;
             justify-content: end;
-            width: 65%;
         }
         .socialMedia__emptyDiv {
             display: flex;
-            width: 65%;
+            width: 0%;
         }
         .socialMedia__navbar {
             // display: flex;
@@ -141,12 +156,12 @@
         .socialMedia {
             height: 20px;
             width: 20px;
-            margin: 0 20px;
+            margin: 0 10px;
             display: flex;
             justify-content: center;
             align-items: center; 
-            &:last-child {
-                margin-right: 60px;
+            &:first-child {
+                margin-left: 26px;
             }
             a {
                 color: $color-white;
@@ -157,6 +172,7 @@
                     transition: 0.7s;
                 }
             }
+        }
         }
     }
 
@@ -308,13 +324,12 @@
         font-size: 16px;
         font-family: "Raleway", sans-serif;
         width: 100%;
-        margin-left: 50px;
     }
     .main .main__socialMedia--scroll .socialMedia__navbar .navbar--sm .navbar__ul--sm .navbar__li--sm:first-child a {
         text-decoration: none;
         text-transform: uppercase;
         // width: auto;
-        padding: 3px;
+        padding: 30px;
         outline: none;
         transition: 0.7s;
     }
@@ -411,7 +426,7 @@
         &::before {
             content: "";
             height: calc(100% - 29px);
-            width: 100%;
+            width: 100vw;
             background-color: $color-black;
             opacity: 0.5;
             position: absolute;
@@ -664,7 +679,7 @@
         color: #f2f2f2;
         opacity: 0.5;
         font-family: sans-serif;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 700;
         letter-spacing: 1.5px;
     }
@@ -731,5 +746,27 @@
         justify-content: center;
         align-items: flex-end;
         padding-bottom: 12px;
+    }
+}
+
+//languages
+
+.language-select {
+    display: flex;
+}
+.custom-select {
+    background-color: transparent;
+    appearance: none;
+    color: $color-white;
+    border: none;
+    margin-right: 10px;
+    padding: 0 6px;
+    cursor: pointer;
+    font-family: sans-serif;
+    &:hover, &:active, &:focus {
+        color: $color-main;
+    }
+    &:last-child {
+        margin-right: 20px;
     }
 }

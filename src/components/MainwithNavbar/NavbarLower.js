@@ -1,10 +1,11 @@
 import React, {useState, useEffect} from "react";
 import { NavHashLink } from 'react-router-hash-link';
-
+import { useTranslation } from "react-i18next";
 
 const NavbarLower = () => {
 
     const [ scroll, setScroll] = useState();
+    const { t } = useTranslation();
     // const [ scrollMobile, setScrollMobile ] = useState()
     
     useEffect(() => {
@@ -24,27 +25,27 @@ const NavbarLower = () => {
                 to="/#"
                 activeClassName="selected"
                 smooth
-                >Home</NavHashLink></li>
+                >{ t ("menu_home")}</NavHashLink></li>
                 <li className={`${scroll ? "navbar__li--dnone" : "navbar__li--sm"}`}><NavHashLink
                 to="/#concerts"
                 activeClassName="selected"
                 smooth
-                >Concerts</NavHashLink></li> 
+                >{ t ("menu_concerts")}</NavHashLink></li> 
                 <li className={`${scroll ? "navbar__li--dnone" : "navbar__li--sm"}`}><NavHashLink
                 to="/#biography"
                 activeClassName="selected"
                 smooth
-                >Biography</NavHashLink></li> 
+                >{ t ("menu_biography")}</NavHashLink></li> 
                 <li className={`${scroll ? "navbar__li--dnone" : "navbar__li--sm"}`}><NavHashLink
                 to="/#gallery"
                 activeClassName="selected"
                 smooth
-                >Gallery</NavHashLink></li>
+                >{ t ("menu_gallery")}</NavHashLink></li>
                 <li className={`${scroll ? "navbar__li--dnone" : "navbar__li--sm"}`}><NavHashLink
                 to="/#contact"
                 activeClassName="selected"
                 smooth
-                >Contact</NavHashLink></li>            
+                >{ t ("menu_contact")}</NavHashLink></li>            
             </ul>
         </nav>
     )
