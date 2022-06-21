@@ -14,7 +14,7 @@
     "calendar_date_zlin": "May 19, 2022",
     "calendar_name_zlin": "Talentinum Festival",
     "calendar_place_zlin": "Philharmonie Bohuslava Martinů, Zlin",
-    "calendar_website_zlin": "https://www.filharmonie-zlin.cz/951a-a7-talentinum-2022",
+    "calendar_website_zlin": "https://www.filharmonie-zlin.cz/25285-19-5-2022-in-um",
 
     "calendar_date_rzeszow": "June 3, 2022",
     "calendar_name_rzeszow": "Sound of hope",
@@ -25,6 +25,16 @@
     "calendar_name_warsaw": "Diploma Concert",
     "calendar_place_warsaw": "Polish Radio Symphony Orchestra, Warsaw",
     "calendar_website_warsaw": "https://chopin.edu.pl/szczegoly-wydarzenia/233_koncert-dyplomantow-umfc-z-udzialem-orkiestry-polskiego-radia-w-warszawie",
+
+    "calendar_date_warsaw_25_02_23": "February 25, 2023",
+    "calendar_name_warsaw_25_02_23": "BEDŘICH SMETANA Má Vlast",
+    "calendar_place_warsaw_25_02_23": "Polska Orkiestra Sinfonia Iuventus, Warsaw",
+    "calendar_website_warsaw_25_02_23": "https://sinfoniaiuventus.pl/",
+
+    "calendar_date_karlove_vary_22_09_22": "September 22, 2022",
+    "calendar_name_karlove_vary_22_09_22": "BEDŘICH SMETANA\nANTONÍN DVOŘÁK",
+    "calendar_place_karlove_vary_22_09_22": "KARLOVARSKÝ SYMFONICKÝ ORCHESTR,\nKarlové Vary",
+    "calendar_website_karlove_vary_22_09_22": "https://www.kso.cz/www/program/2022/9",
 
 
     "title_biography": "Biography",
