@@ -21,7 +21,7 @@
             width: 100%;
             display: flex;
             .photo1 {
-                background-image: url("../../assets/IMG_9694.jpg");
+                // background-image: url("/public/assets/IMG_9694.jpg");
                 background-size: cover;
                 background-position: top;
                 background-position-y: 15%;
@@ -31,7 +31,7 @@
                 // }
             }
             .photo2 {
-                background-image: url("../../assets/DSC_4202ak.jpg");
+                // background-image: url("/public/assets/DSC_4202ak.jpg");
                 background-size: cover;
                 background-position: center;
             }            
@@ -41,13 +41,13 @@
             width: 100%;
             display: flex;
             .photo3 {
-                background-image: url("../../assets/IMG_9692.jpg");
+                // background-image: url("/public/assets/IMG_9692.jpg");
                 background-size: cover;
                 background-position-y: 15%;
                 background-position-x: center;
             }
             .photo4 {
-                background-image: url("../../assets/DSC_4208mk.jpg");
+                // background-image: url("/public/assets/DSC_4208mk.jpg");
                 background-size: cover;
                 background-position: center;
             }            
