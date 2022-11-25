@@ -43,7 +43,7 @@ const Gallery = () => {
     console.log(pictures);
     setTimeout(() => {
       setPictures(items)
-    }, 200);
+    }, 400);
   })
 
   const nextButton = <FontAwesomeIcon icon={faArrowRight} />;
