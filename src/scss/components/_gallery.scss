@@ -1,14 +1,33 @@
-.react-multi-carousel-item {
-    padding: 10px 0 10px 10px;
-    background: $color-black;
-    &:first-child {
-        padding-left: 0px;
+.alice-carousel__next-btn {
+    position: absolute;
+    right: 21px;
+    top: 40%;
+    width: 0 !important;
+    color: $color-main;
+    font-size: 30px;
+    opacity: 0.8;
+    cursor: pointer;
+    &:hover {
+        opacity: 1
     }
 }
-.react-multiple-carousel__arrow {
-    background: #ffbc0499 !important;
+.alice-carousel__prev-btn {
+    position: absolute;
+    left: 9px;
+    top: 40%;
+    width: 0 !important;
+    color: $color-main;
+    font-size: 30px;
+    opacity: 0.8;
+    cursor: pointer;
     &:hover {
-        background: #ffbc0470 !important;
+        opacity: 1
     }
-    
+}
+.alice-carousel__stage-item * {
+    display: -webkit-inline-box;
+    height: 380px;
+    @media  (max-width: 700px) {
+        height: 250px;
+    }
 }
