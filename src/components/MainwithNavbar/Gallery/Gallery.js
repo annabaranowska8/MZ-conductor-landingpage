@@ -1,21 +1,73 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import 'react-multi-carousel/lib/styles.css';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+import { FontAwesomeIcon } from '../../../../node_modules/@fortawesome/react-fontawesome';
+import { faArrowRight } from '../../../../node_modules/@fortawesome/free-solid-svg-icons';
+import { faArrowLeft } from '../../../../node_modules/@fortawesome/free-solid-svg-icons';
 
+const responsive = {
+    0: {
+      items: 1,
+    },
+    370: {
+      items: 2,
+    },
+    1000: {
+      items: 3,
+    },
+    1450: {
+      items: 4,
+    },
+    1900: {
+      items: 5,
+    }
+  };
+
+const handleDragStart = (e) => e.preventDefault();
+const items = [
+  <img src="/assets/Talentinum2022/2022-05-19-fbm-talentinum_050.jpg" onDragStart={handleDragStart} role="presentation" />,
+  <img src="/assets/DzwiekamiNadziei2022/koncert_dzwiekami_nadziei_01122.jpg" onDragStart={handleDragStart} role="presentation" />,
+  <img src="/assets/Talentinum2022/2022-05-19-fbm-talentinum_063.jpg" onDragStart={handleDragStart} role="presentation" />,
+  <img src="/assets/Talentinum2022/2022-05-19-fbm-talentinum_004.jpg" onDragStart={handleDragStart} role="presentation" />,
+  <img src="/assets/Talentinum2022/2022-05-19-fbm-talentinum_006 (1).jpg" onDragStart={handleDragStart} role="presentation" />,
+  <img src="/assets/Talentinum2022/2022-05-19-fbm-talentinum_064.jpg" onDragStart={handleDragStart} role="presentation" />,
+  <img src="/assets/DzwiekamiNadziei2022/koncert_dzwiekami_nadziei_00189.jpg" onDragStart={handleDragStart} role="presentation" />,
+];
+    
 const Gallery = () => {
-    return (
-        <div className="gallery" id="gallery">
-            <div className="gallery__photo">
-                <div className="gallery--1">
-                    <div className="photo1"></div>
-                    <div className="photo2"></div>                    
-                </div>
-                <div className="gallery--2">
-                    <div className="photo3"></div>
-                    <div className="photo4"></div>                    
-                </div>
-                {/* <div className="photo5"></div> */}
-            </div>
-        </div>
-    )
+  const [pictures, setPictures] = useState()
+
+  useEffect(() => {
+    // setPictures(items)
+    console.log(pictures);
+    setTimeout(() => {
+      setPictures(items)
+    }, 200);
+  })
+
+  const nextButton = <FontAwesomeIcon icon={faArrowRight} />;
+  const prevButton = <FontAwesomeIcon icon={faArrowLeft} />;
+  const renderNextButton = () => {
+    return <div className="alice-carousel__next-btn">{nextButton}</div>
+  };
+  const renderPrevButton = () => {
+    return <div className="alice-carousel__prev-btn">{prevButton}</div>
+  };
+
+  return <div id="gallery">
+          <AliceCarousel 
+          mouseTracking 
+          disableDotsControls={true} 
+          ssrSilentMode={true} 
+          keyboardNavigation={true} 
+          infinite={true} 
+          renderPrevButton={renderPrevButton}
+          renderNextButton={renderNextButton}
+          responsive={responsive}
+          items={pictures} />
+    </div>
 }
+  
 
 export default Gallery;
