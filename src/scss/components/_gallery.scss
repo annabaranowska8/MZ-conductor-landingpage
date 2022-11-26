@@ -24,10 +24,14 @@
         opacity: 1
     }
 }
+.alice-carousel__stage-item {
+    display: inline-flex !important;
+}
 .alice-carousel__stage-item * {
     display: -webkit-inline-box;
     height: 380px;
     @media  (max-width: 700px) {
         height: 250px;
+
     }
 }
