@@ -1,5 +1,5 @@
 .biography {
-    height: 100vh;
+    height: 140vh;
     width: 100vw;
     // background-color: darken($color-white, 5%);
     // box-shadow: inset 0px 60px 50px 0px white;
@@ -12,7 +12,6 @@
     border-top: 1px solid lighten($color-black-almost, 30%);
     // background-image: url("../../assets/DSC_4202ak.jpg");
     .biography__content {
-        // width: 1200px;
         display: flex;
         flex-direction: row;
         height: 100%;
