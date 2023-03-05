@@ -10,6 +10,14 @@ const Concerts = () => {
                 <h2 className="concerts__container--title">{ t ("title_concerts")}</h2>
                 <ul className="concerts__container--events_list">
                     <li className="single_event_list">
+                        <a href={t("calendar_website_kalisz_28_04_23")} target="_blank">
+                            <div className="event_list_entry event_date">{t ("calendar_date_kalisz_28_04_23")}</div>
+                            <div className="event_list_entry event_event">{t ("calendar_name_kalisz_28_04_23")}</div>
+                            <div className="event_list_entry event_location">{t ("calendar_place_kalisz_28_04_23")}</div>
+                            <div className="event_list_entry event_program">{t ("calendar_more")}</div>
+                        </a>       
+                    </li>
+                    <li className="single_event_list">
                         <a href={t("calendar_website_warsaw_26_02_23")} target="_blank">
                             <div className="event_list_entry event_date">{t ("calendar_date_warsaw_26_02_23")}</div>
                             <div className="event_list_entry event_event">{t ("calendar_name_warsaw_26_02_23")}</div>
@@ -22,14 +30,6 @@ const Concerts = () => {
                             <div className="event_list_entry event_date">{t ("calendar_date_tarnow_zsm_24_11_22")}</div>
                             <div className="event_list_entry event_event">{t ("calendar_name_tarnow_zsm_24_11_22")}</div>
                             <div className="event_list_entry event_location">{t ("calendar_place_tarnow_zsm_24_11_22")}</div>
-                            <div className="event_list_entry event_program">{t ("calendar_more")}</div>
-                        </a>       
-                    </li>
-                    <li className="single_event_list">
-                        <a href={t("calendar_website_karlove_vary_22_09_22")} target="_blank">
-                            <div className="event_list_entry event_date">{t ("calendar_date_karlove_vary_22_09_22")}</div>
-                            <div className="event_list_entry event_event">{t ("calendar_name_karlove_vary_22_09_22")}</div>
-                            <div className="event_list_entry event_location">{t ("calendar_place_karlove_vary_22_09_22")}</div>
                             <div className="event_list_entry event_program">{t ("calendar_more")}</div>
                         </a>       
                     </li>
