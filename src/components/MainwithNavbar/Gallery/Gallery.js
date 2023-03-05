@@ -39,8 +39,6 @@ const Gallery = () => {
   const [pictures, setPictures] = useState()
 
   useEffect(() => {
-    // setPictures(items)
-    console.log(pictures);
     setTimeout(() => {
       setPictures(items)
     }, 400);
@@ -55,7 +53,7 @@ const Gallery = () => {
     return <div className="alice-carousel__prev-btn">{prevButton}</div>
   };
 
-  return <div id="gallery">
+  return <div id="gallery" >
           <AliceCarousel 
           mouseTracking 
           disableDotsControls={true} 
