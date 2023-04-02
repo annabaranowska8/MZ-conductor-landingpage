@@ -39,7 +39,7 @@ const Contact = () => {
         </div>
         <footer className="contact__footer">
             <div className="photos">
-                <p>Photos by Mateusz Żaboklicki, Tomasz Szklany</p>                
+                <p>Photos by Mateusz Żaboklicki, Tomasz Szklany, Piotr Banasik</p>                
             </div>
             <div className="developer">
                 <p>Developed and designed<br/> by <a href ="https://www.linkedin.com/in/baranowska-anna/">Anna Baranowska</a></p>
