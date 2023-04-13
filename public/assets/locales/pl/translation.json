@@ -8,9 +8,10 @@
     "menu_gallery": "Galeria",
     "menu_contact": "Kontakt",
 
+    "title_media": "MEDIA",
 
     "title_concerts": "Koncerty",
-    "calendar_more": "Zobacz więcej...",
+    "see_more": "Zobacz więcej...",
 
     "calendar_date_zlin": "Maj 19, 2022",
     "calendar_name_zlin": "Festiwal Talentinum",
@@ -20,7 +21,7 @@
     "calendar_date_rzeszow": "Maj 3, 2022",
     "calendar_name_rzeszow": "Dźwięki nadziei",
     "calendar_place_rzeszow": "Kościół \"Podwyższenia Krzyża\", Rzeszów",
-    "calendar_more_rzeszow": "Koncert wykonany przez ukraińskich muzyków",
+    "see_more_rzeszow": "Koncert wykonany przez ukraińskich muzyków",
 
     "calendar_date_warsaw": "Czerwiec 26, 2021",
     "calendar_name_warsaw": "Koncert dyplomowy",

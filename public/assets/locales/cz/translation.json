@@ -8,9 +8,10 @@
     "menu_gallery": "GALERIE",
     "menu_contact": "KONTAKT",
 
+    "title_media": "MÉDIA",
 
     "title_concerts": "KALENDÁŘ",
-    "calendar_more": "Kliknutím zobrazíte další podrobnosti...",
+    "see_more": "Kliknutím zobrazíte další podrobnosti...",
 
     "calendar_date_zlin": "Květen 19, 2022",
     "calendar_name_zlin": "Festival Talentinum",
@@ -20,7 +21,7 @@
     "calendar_date_rzeszow": "Duben 3, 2022",
     "calendar_name_rzeszow": "Zvuky naděje",
     "calendar_place_rzeszow": "Kostel \"Podwyższenia Krzyża\", Rzeszow",
-    "calendar_more_rzeszow": "Koncert hraný ukrajinskými hudebníky",
+    "see_more_rzeszow": "Koncert hraný ukrajinskými hudebníky",
 
     "calendar_date_warsaw": "Červen 26, 2021",
     "calendar_name_warsaw": "Diplomový recitál",

@@ -8,8 +8,10 @@
     "menu_gallery": "Gallery",
     "menu_contact": "Contact",
 
+    "title_media": "MEDIA",
+
     "title_concerts": "Concerts",
-    "calendar_more": "More details...",
+    "see_more": "More details...",
 
     "calendar_date_zlin": "May 19, 2022",
     "calendar_name_zlin": "Talentinum Festival",
@@ -19,7 +21,7 @@
     "calendar_date_rzeszow": "June 3, 2022",
     "calendar_name_rzeszow": "Sound of hope",
     "calendar_place_rzeszow": "Church \"Podwyższenia Krzyża\", Rzeszow",
-    "calendar_more_rzeszow": "A concert played by Ukrainian musicians",
+    "see_more_rzeszow": "A concert played by Ukrainian musicians",
 
     "calendar_date_warsaw": "June 26, 2021",
     "calendar_name_warsaw": "Diploma Concert",

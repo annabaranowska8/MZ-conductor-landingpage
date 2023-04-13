@@ -14,7 +14,7 @@ const Concerts = () => {
                             <div className="event_list_entry event_date">{t ("calendar_date_kalisz_28_04_23")}</div>
                             <div className="event_list_entry event_event">{t ("calendar_name_kalisz_28_04_23")}</div>
                             <div className="event_list_entry event_location">{t ("calendar_place_kalisz_28_04_23")}</div>
-                            <div className="event_list_entry event_program">{t ("calendar_more")}</div>
+                            <div className="event_list_entry event_program">{t ("see_more")}</div>
                         </a>       
                     </li>
                     <li className="single_event_list">
@@ -22,7 +22,7 @@ const Concerts = () => {
                             <div className="event_list_entry event_date">{t ("calendar_date_warsaw_26_02_23")}</div>
                             <div className="event_list_entry event_event">{t ("calendar_name_warsaw_26_02_23")}</div>
                             <div className="event_list_entry event_location">{t ("calendar_place_warsaw_26_02_23")}</div>
-                            <div className="event_list_entry event_program">{t ("calendar_more")}</div>
+                            <div className="event_list_entry event_program">{t ("see_more")}</div>
                         </a>       
                     </li>
                     <li className="single_event_list">
@@ -30,7 +30,7 @@ const Concerts = () => {
                             <div className="event_list_entry event_date">{t ("calendar_date_tarnow_zsm_24_11_22")}</div>
                             <div className="event_list_entry event_event">{t ("calendar_name_tarnow_zsm_24_11_22")}</div>
                             <div className="event_list_entry event_location">{t ("calendar_place_tarnow_zsm_24_11_22")}</div>
-                            <div className="event_list_entry event_program">{t ("calendar_more")}</div>
+                            <div className="event_list_entry event_program">{t ("see_more")}</div>
                         </a>       
                     </li>
                     {/* "calendar_date_tarnow_zsm_24_11_22": "Listopad 24, 2022",
