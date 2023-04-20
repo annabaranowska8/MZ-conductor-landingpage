@@ -10,6 +10,18 @@
 
     "title_media": "MEDIA",
 
+    "media_iuventus_title": "Polska Orkiestra Sinfonia Iuventus",
+    "media_iuventus_desc" : "Má vlast by Bedřich Smetana for the first time with Polish Sinfonia Iuventus Orchestra.",
+
+    "media_talentinum_title": "Festiwal Talentinum w Zlínie",
+    "media_talentinum_desc" : "Martyna Zych was chosen for the Talentinum Festival with Bohuslav Martinů Philharmonic.",
+
+    "media_karlove_wary_title": "Otwarcie sezonu artystycznego w Karlowych Warach",
+    "media_karlove_wary_desc" : "Martyna Zych opened the season with Carlsbad Symphony Orchestra. KlasikaPlus.",
+
+    "media_dzwiekami_nadziei_title": "Polskie Radio Dwójka\n koncert\"Dźwiękami nadziei\"",
+    "media_dzwiekami_nadziei_desc" : "The first in Poland orchestra for Ukrainian's refugees musicians had the premiere concert on the 3rd of April 2022 in Rzeszów. Interview for Polish Radio.",
+
     "title_concerts": "Concerts",
     "see_more": "More details...",
 
@@ -58,5 +70,5 @@
     "about": "About ",
     "about_MartynaZych": "Martyna Zych",
     "about_content": "Martyna Zych is very go-getter, energetic and full of passion conductor. During the work she is industrious, precise and indictable person. She speaks English, Czech and Polish.",
-    "contact": "Contact" 
+    "management": "Management" 
 }
