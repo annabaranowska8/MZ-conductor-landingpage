@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15a3d80f.chunk.css",
+    "main.js": "/static/js/main.8437d219.chunk.js",
+    "main.js.map": "/static/js/main.8437d219.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c55b7ccf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c55b7ccf.js.map",
+    "static/css/2.22301d59.chunk.css": "/static/css/2.22301d59.chunk.css",
+    "static/js/2.4f99e204.chunk.js": "/static/js/2.4f99e204.chunk.js",
+    "static/js/2.4f99e204.chunk.js.map": "/static/js/2.4f99e204.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.22301d59.chunk.css.map": "/static/css/2.22301d59.chunk.css.map",
+    "static/css/main.15a3d80f.chunk.css.map": "/static/css/main.15a3d80f.chunk.css.map",
+    "static/js/2.4f99e204.chunk.js.LICENSE.txt": "/static/js/2.4f99e204.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/static/media/Main.6b92cddc.jpg",
+    "static/media/getFetch.cjs": "/static/media/getFetch.5fde86e3.cjs",
+    "static/media/styles.css": "/static/media/revicons.e8746a62.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c55b7ccf.js",
+    "static/css/2.22301d59.chunk.css",
+    "static/js/2.4f99e204.chunk.js",
+    "static/css/main.15a3d80f.chunk.css",
+    "static/js/main.8437d219.chunk.js"
+  ]
+}
