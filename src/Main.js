@@ -34,9 +34,9 @@ function Main() {
         <Concerts />
         <BiographyShort />
         <Quotes />
-        <div style={{ background: "black" }}>
+        {/* <div style={{ background: "black" }}>
           <Gallery />
-        </div>
+        </div> */}
       </div>
       <Contact />
     </>
