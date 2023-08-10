@@ -8,9 +8,22 @@
     "menu_gallery": "GALERIE",
     "menu_contact": "KONTAKT",
 
+    "title_media": "MÉDIA",
+
+    "media_iuventus_title": "Polský Orchestr Sinfonia Iuventus a Má vlast",
+    "media_iuventus_desc" : "Má vlast Bedřicha Smetany poprvé s polským orchestrem Sinfonia Iuventus.",
+
+    "media_talentinum_title": "Festival Talentinum s FBM",
+    "media_talentinum_desc" : "Martyna Zych vybrána na Festival Talentinum s Filharmonií Bohuslava Martinů.",
+
+    "media_karlove_wary_title": "Zahájení sezony s KSO",
+    "media_karlove_wary_desc" : "Martyna Zych zahájila sezónu s Karlovarskym Symfonickym Orchestrem. KlasikaPlus.",
+
+    "media_dzwiekami_nadziei_title": "Polský rozhlas \"Dwójka\" - rozhovor",
+    "media_dzwiekami_nadziei_desc" : "První v Polsku orchestr pro hubebníky-uprchlíky z Ukrajiny měl premiérový koncert 3. dubna 2022 v Rzeszově. Rozhovor pro polský rozhlas.",
 
     "title_concerts": "KALENDÁŘ",
-    "calendar_more": "Kliknutím zobrazíte další podrobnosti...",
+    "see_more": "Kliknutím zobrazíte další podrobnosti...",
 
     "calendar_date_zlin": "Květen 19, 2022",
     "calendar_name_zlin": "Festival Talentinum",
@@ -20,7 +33,7 @@
     "calendar_date_rzeszow": "Duben 3, 2022",
     "calendar_name_rzeszow": "Zvuky naděje",
     "calendar_place_rzeszow": "Kostel \"Podwyższenia Krzyża\", Rzeszow",
-    "calendar_more_rzeszow": "Koncert hraný ukrajinskými hudebníky",
+    "see_more_rzeszow": "Koncert hraný ukrajinskými hudebníky",
 
     "calendar_date_warsaw": "Červen 26, 2021",
     "calendar_name_warsaw": "Diplomový recitál",
@@ -42,9 +55,13 @@
     "calendar_place_karlove_vary_22_09_22": "KARLOVARSKÝ SYMFONICKÝ ORCHESTR,\nKarlové Vary",
     "calendar_website_karlove_vary_22_09_22": "https://www.kso.cz/www/program/2022/9",
 
+    "calendar_date_kalisz_28_04_23": "Duben 28, 2023",
+    "calendar_name_kalisz_28_04_23": "Absolventský koncert studentů",
+    "calendar_place_kalisz_28_04_23": "Kaliská filharmonie, Kalisz",
+    "calendar_website_kalisz_28_04_23": "http://filharmoniakaliska.pl/events/details/2023/04/28/koncert-dyplomantow/485",
 
     "title_biography": "ŽIVOTOPIS",
-    "biography": "Martyna Zych je ambiciózní polská dirigentka zaměřená na českou hudbu. Vystudovala symfonické a operní dirigování na Hudební univerzitě Fryderyka Chopina ve Varšavě ve třídě prof. Tomasze Bugaje a violu ve třídě prof. Piotr Reichert. Díky spolupráci s Muzeem Antonína Dvořáka v Praze má rukopis Symfonie č. 4 d moll op. 13 Antonína Dvořáka, o které psala diplomovou práci. Napsala mnoho analytických prací o dílech českých skladatelů, porovnávala partitury s rukopisy, dopisy a historií. Při práci na českém repertoáru dbá především na pravdivost provedení v souladu se skladatelovými záměry a tradicí jeho země. Martyna Zych byla vybrána jako dirigentka festivalu Talentinum s Filharmonií Bohuslava Martinů ve Zlíně, kde bude v květnu 2022 pracovat s mladými českými sólisty. Je zakladatelkou a spoluzakladatelkou orchestru pro hudebníky-uprchlíky z Ukrajiny. První koncert se uskutečnil 3. dubna 2022 v Rzeszówě, který skončil velkým úspěchem a návrhy dalších koncertů pro orchestr. Mnohokrát byla asistentkou českých a polských dirigentů, např. Jiřího Petdlíka, Chuheie Iwasakiho, Massimiliana Caldiho nebo Dawida Runtze. Spolupracovala s: Divadlem v Plzni, Filharmonií Plzeň (Má vlast Bedřicha Smetany na festivalu Smetanovské dny), Orchestrem Polského rozhlasu, Podkarpatskou filharmonií a Akademickým orchestrem Univerzity hudebních umění Fryderyka Chopina. Jako asistentka měla možnost seznámit se s mnoha interpretačními tradicemi tvorby Antonína Dvořáka a Bedřicha Smetany a rozšířit si znalosti o české hudbě při setkáních s českými osobnostmi, jako jsou např. Tomáš Brauner, Veronika Vejvodová a Norbert Baxa. Martyna navíc mluví plynně česky, takže může bez problémů spolupracovat s českými sólisty. Kromě toho, jako violistka v polském Sinfonia Iuventus Orchestra Jerzy Semkow, má možnost pracovat s vynikajícími dirigenty na širokém repertoáru z praktického i interpretačního hlediska. Je člověkem plným energie, chce předávat své upřímné nadšení orchestrálním hudebníkům a provozovat českou hudbu podle interpretačních představ skladatelů.",
+    "biography": "Martyna Zych je ambiciózní polská dirigentka zaměřená na českou hudbu. Vystudovala symfonické a operní dirigování na Hudební univerzitě Fryderyka Chopina ve Varšavě ve třídě prof. Tomasze Bugaje a violu ve třídě prof. Piotr Reichert.\n\nDíky spolupráci s Muzeem Antonína Dvořáka v Praze má rukopis Symfonie č. 4 d moll op. 13 Antonína Dvořáka, o které psala diplomovou práci. Napsala mnoho analytických prací o dílech českých skladatelů, porovnávala partitury s rukopisy, dopisy a historií. Při práci na českém repertoáru dbá především na pravdivost provedení v souladu se skladatelovými záměry a tradicí jeho země. Martyna Zych byla vybrána jako dirigentka festivalu Talentinum s Filharmonií Bohuslava Martinů ve Zlíně, kde bude v květnu 2022 pracovat s mladými českými sólisty. Je zakladatelkou a spoluzakladatelkou orchestru pro hudebníky-uprchlíky z Ukrajiny. První koncert se uskutečnil 3. dubna 2022 v Rzeszówě, který skončil velkým úspěchem a návrhy dalších koncertů pro orchestr. Mnohokrát byla asistentkou českých a polských dirigentů, např. Jiřího Petdlíka, Chuheie Iwasakiho, Massimiliana Caldiho nebo Dawida Runtze.\n\nSpolupracovala s: Divadlem v Plzni, Filharmonií Plzeň (Má vlast Bedřicha Smetany na festivalu Smetanovské dny), Orchestrem Polského rozhlasu, Podkarpatskou filharmonií a Akademickým orchestrem Univerzity hudebních umění Fryderyka Chopina.\n\nJako asistentka měla možnost seznámit se s mnoha interpretačními tradicemi tvorby Antonína Dvořáka a Bedřicha Smetany a rozšířit si znalosti o české hudbě při setkáních s českými osobnostmi, jako jsou např. Tomáš Brauner, Veronika Vejvodová a Norbert Baxa. Martyna navíc mluví plynně česky, takže může bez problémů spolupracovat s českými sólisty. Kromě toho, jako violistka v polském Sinfonia Iuventus Orchestra Jerzy Semkow, má možnost pracovat s vynikajícími dirigenty na širokém repertoáru z praktického i interpretačního hlediska. Je člověkem plným energie, chce předávat své upřímné nadšení orchestrálním hudebníkům a provozovat českou hudbu podle interpretačních představ skladatelů.",
 
     "quote": "Její detailní znalost tvorby českých autorů, doplněná upřímným a intenzivním zájmem o českou hudební kulturu, ji předurčuje nejen k umělecké činnosti v českém hudebním prostředí",
     "quote_author": "Jiří Petrdlík",
@@ -52,7 +69,7 @@
     "about": "O MNĚ ",
     "about_MartynaZych": "Martyna Zych",
     "about_content": "Martyna Zych je velmi temperamentní, energická a plná vášní. Při práci je to pracovitá a precizní osoba. Hovoří anglicky, česky a polsky.",
-    "contact": "Kontakt" 
+    "management": "Manažerka" 
 
 
 }
