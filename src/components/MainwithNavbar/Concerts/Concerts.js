@@ -10,33 +10,29 @@ const Concerts = () => {
                 <h2 className="concerts__container--title">{ t ("title_concerts")}</h2>
                 <ul className="concerts__container--events_list">
                     <li className="single_event_list">
-                        <a href={t("calendar_website_kalisz_28_04_23")} target="_blank">
-                            <div className="event_list_entry event_date">{t ("calendar_date_kalisz_28_04_23")}</div>
-                            <div className="event_list_entry event_event">{t ("calendar_name_kalisz_28_04_23")}</div>
-                            <div className="event_list_entry event_location">{t ("calendar_place_kalisz_28_04_23")}</div>
+                        <a href={t("calendar_website_hungary_3-10_09_23")} target="_blank">
+                            <div className="event_list_entry event_date">{t ("calendar_date_hungary_3-10_09_23")}</div>
+                            <div className="event_list_entry event_event">{t ("calendar_name_hungary_3-10_09_23")}</div>
+                            <div className="event_list_entry event_location">{t ("calendar_place_hungary_3-10_09_23")}</div>
                             <div className="event_list_entry event_program">{t ("see_more")}</div>
                         </a>       
                     </li>
                     <li className="single_event_list">
-                        <a href={t("calendar_website_warsaw_26_02_23")} target="_blank">
-                            <div className="event_list_entry event_date">{t ("calendar_date_warsaw_26_02_23")}</div>
-                            <div className="event_list_entry event_event">{t ("calendar_name_warsaw_26_02_23")}</div>
-                            <div className="event_list_entry event_location">{t ("calendar_place_warsaw_26_02_23")}</div>
+                        <a href={t("calendar_website_olsztyn_23_02_2024")} target="_blank">
+                            <div className="event_list_entry event_date">{t ("calendar_date_olsztyn_23_02_2024")}</div>
+                            <div className="event_list_entry event_event">{t ("calendar_name_olsztyn_23_02_2024")}</div>
+                            <div className="event_list_entry event_location">{t ("calendar_place_olsztyn_23_02_2024")}</div>
                             <div className="event_list_entry event_program">{t ("see_more")}</div>
                         </a>       
                     </li>
                     <li className="single_event_list">
-                        <a href={t("calendar_website_tarnow_zsm_24_11_22")} target="_blank">
-                            <div className="event_list_entry event_date">{t ("calendar_date_tarnow_zsm_24_11_22")}</div>
-                            <div className="event_list_entry event_event">{t ("calendar_name_tarnow_zsm_24_11_22")}</div>
-                            <div className="event_list_entry event_location">{t ("calendar_place_tarnow_zsm_24_11_22")}</div>
+                        <a href={t("calendar_website_olsztyn_01_03_2024")} target="_blank">
+                            <div className="event_list_entry event_date">{t ("calendar_date_olsztyn_01_03_2024")}</div>
+                            <div className="event_list_entry event_event">{t ("calendar_name_olsztyn_01_03_2024")}</div>
+                            <div className="event_list_entry event_location">{t ("calendar_place_olsztyn_01_03_2024")}</div>
                             <div className="event_list_entry event_program">{t ("see_more")}</div>
                         </a>       
                     </li>
-                    {/* "calendar_date_tarnow_zsm_24_11_22": "Listopad 24, 2022",
-                    "calendar_name_tarnow_zsm_24_11_22": "BEDŘICH SMETANA\nANTONÍN DVOŘÁK",
-                    "calendar_place_tarnow_zsm_24_11_22": "KARLOVARSKÝ SYMFONICKÝ ORCHESTR,\nKarlové Vary",
-                    "calendar_website_tarnow_zsm_24_11_22": "https://www.kso.cz/www/program/2022/9", */}
                 </ul>
             </div>
         </div>
