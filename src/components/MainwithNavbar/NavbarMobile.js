@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { NavHashLink } from "react-router-hash-link";
 
-const NavbarMobile = ({customClass}) => {
+const NavbarMobile = ({ customClass }) => {
   return (
     <nav className={`navbar-mobile-hamburger ${customClass}`}>
       <ul>
