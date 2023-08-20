@@ -51,18 +51,22 @@
 
       .single_event_list {
         background-color: lighten($color-black, 50%);
-        // border-radius: 2px;
+        border-bottom: 1px solid darken($color-white, 30%);
 
         &:nth-child(1) {
-          // text-transform: uppercase;
           a {
             color: $color-main;
+            .see-more-btn {
+              color: $color-white;
+              &:hover {
+                color: $color-main;
+              }
+            }
           }
         }
 
-        &:nth-child(2) {
-          border-bottom: 1px solid darken($color-white, 30%);
-          border-top: 1px solid darken($color-white, 30%);
+        &:last-child {
+          border-bottom: none;
         }
         a {
           display: flex;
@@ -74,15 +78,39 @@
           font-size: 18px;
           border-left: 5px solid lighten($color-white, 10%);
           .event_list_entry {
-            padding: 30px 45px;
-            width: 25%;
+            padding: 25px 10px;
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+
             &:nth-child(2) {
               text-transform: uppercase;
+              line-height: 23px;
+            }
+            &:first-child {
+              width: 20%;
+            }
+            &:last-child {
+              width: 14%;
+            }
+            .see-more-btn {
+              padding: 7px;
+              border: 1px solid $color-black;
+              background-color: $color-black-almost;
+              font-size: 14px;
+              text-transform: uppercase; 
+              transition: 0.2s;
+              border-radius: 5px;
+              &:hover {
+                background-color: $color-main;
+                color: $color-black-almost;
+                transition: 0.2s;
+              }
             }
           }
           &:hover {
             background-color: lighten($color-black, 25%);
-            transition: 0.7s;
+            transition: 0.3s;
             border-left: 5px solid $color-main;
           }
         }
@@ -97,7 +125,9 @@
           border-left: 5px solid lighten($color-white, 10%);
           .event_list_entry {
             padding: 30px 45px;
-            width: 25%;
+            width: 33%;
+            display: flex;
+            flex-direction: column;
             &:nth-child(2) {
               text-transform: uppercase;
             }
@@ -120,7 +150,7 @@
     a
     .event_list_entry {
     padding: 15px;
-    width: 25%;
+    width: 33%;
   }
 }
 @media screen and (max-width: $lg-max-width) {
@@ -154,6 +184,10 @@
     font-size: 16px;
     border-left: 5px solid white;
   }
+
+  .concerts .concerts__container .concerts__container--events_list .single_event_list a .event_list_entry .see-more-btn {
+    font-size: 12px;
+  }
   .concerts .concerts__container .concerts__container--events_list {
     display: flex;
     flex-direction: column;
@@ -177,7 +211,11 @@
     a
     .event_list_entry {
     padding: 5px;
-    width: 25%;
+    width: 30%;
+  }
+
+  .concerts .concerts__container .concerts__container--events_list .single_event_list a .event_list_entry .see-more-btn {
+    font-size: 10px;
   }
   .concerts
     .concerts__container
@@ -202,7 +240,7 @@
     a
     .event_list_entry {
     padding: 5px;
-    width: 25%;
+    width: 30%;
   }
   .concerts
     .concerts__container
@@ -218,6 +256,9 @@
     font-size: 12px;
     border-left: 5px solid white;
   }
+  .concerts .concerts__container .concerts__container--events_list .single_event_list a .event_list_entry:last-child {
+    width: 17% !important;
+}
 }
 @media screen and (max-width: 500px) {
   .concerts .concerts__container .concerts__container--title {
@@ -244,7 +285,7 @@
     a
     .event_list_entry {
     padding: 4px;
-    width: 25%;
+    width: 33%;
   }
   .concerts .concerts__container .concerts__container--events_list {
     display: flex;
