@@ -34,6 +34,11 @@ const Navbar = () => {
                 smooth
                 >{ t ("menu_home")}</NavHashLink></li>
                 <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
+                to="/#media"
+                activeClassName="selected"
+                smooth
+                >{ t ("menu_media")}</NavHashLink></li>
+                <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
                 to="/#concerts"
                 activeClassName="selected"
                 smooth
@@ -43,11 +48,11 @@ const Navbar = () => {
                 activeClassName="selected"
                 smooth
                 >{ t ("menu_biography")}</NavHashLink></li> 
-                <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
+                {/* <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
                 to="/#gallery"
                 activeClassName="selected"
                 smooth
-                >{ t ("menu_gallery")}</NavHashLink></li>
+                >{ t ("menu_gallery")}</NavHashLink></li> */}
                 <li className={`${scroll ? "navbar__li--sm" : scrollMobile ? "navbar__li--sm" : "navbar__li--dnone"}`}><NavHashLink
                 to="/#contact"
                 activeClassName="selected"

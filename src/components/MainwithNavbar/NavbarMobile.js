@@ -11,6 +11,11 @@ const NavbarMobile = ({ customClass }) => {
           </NavHashLink>
         </li>
         <li>
+          <NavHashLink to="/#media" activeClassName="selected" smooth>
+            Media
+          </NavHashLink>
+        </li>
+        <li>
           <NavHashLink to="/#concerts" activeClassName="selected" smooth>
             Concerts
           </NavHashLink>
@@ -20,11 +25,11 @@ const NavbarMobile = ({ customClass }) => {
             Biography
           </NavHashLink>
         </li>
-        <li>
+        {/* <li>
           <NavHashLink to="/#gallery" activeClassName="selected" smooth>
             Gallery
           </NavHashLink>
-        </li>
+        </li> */}
         <li>
           <NavHashLink to="/#contact" activeClassName="selected" smooth>
             Contact
