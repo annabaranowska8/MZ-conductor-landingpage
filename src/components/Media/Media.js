@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Carousel from "../helpers/Carousel/Carousel";
 import Item from "./Item";
 
 const Media = () => {
@@ -11,32 +10,32 @@ const Media = () => {
       {/* <h2 className="media_container--title">{t("title_media")}</h2> */}
       <div className="media_container--items">
         <div className="media_container--top">
-          {/* Iuve */}
+          {/* Dyrygent Rezydent */}
           <Item
-            mediaLink="https://sinfoniaiuventus.pl/bedrich-smetana-moja-ojczyzna-serce-czech/"
-            imgSrc="/assets/IuveSmetana-26.02.2023/POSI-smetana-full-249-min.jpg"
-            title={t("media_iuventus_title")}
-            description={t("media_iuventus_desc")}
+            mediaLink={t("media_rezydetn_olsztyn_website")}
+            imgSrc="./assets/muzyka-bez-granic-tarnow.jpg"
+            title={t("media_rezydetn_olsztyn_title")}
+            description={t("media_rezydetn_olsztyn_desc")}
           />
           {/* Karlove vary */}
           <Item
-            mediaLink="https://www.klasikaplus.cz/vyhled/item/8039-karlovarsky-symfonicky-orchestr-v-nove-sezone-s-novym-sefdirigentem"
+            mediaLink={t("media_karlove_wary_website")}
             imgSrc="/assets/Karlove_Vary.jpg"
             title={t("media_karlove_wary_title")}
             description={t("media_karlove_wary_desc")}
           />
         </div>
         <div className="media_container--bottom">
-          {/* Talentinum */}
+          {/* IFFCC */}
           <Item
-            mediaLink="https://www.filharmonie-zlin.cz/951a-a7-talentinum-2022"
-            imgSrc="/assets/Talentinum2022/2022-05-19-fbm-talentinum_006 (1).jpg"
-            title={t("media_talentinum_title")}
-            description={t("media_talentinum_desc")}
+            mediaLink={t("media_IFFCC_website")}
+            imgSrc="/assets/POSI-smetana-full.jpg"
+            title={t("media_IFFCC_title")}
+            description={t("media_IFFCC_desc")}
           />
           {/* Dźwiękami Nadziei */}
           <Item
-            mediaLink="https://www.polskieradio.pl/8/410/Artykul/2929544,Martyna-Zych-granie-muzyki-daje-nadzieje?fbclid=IwAR1t1oJ9l9sx0qOT3aPkX5IgNjWrrUTPURjyVI4bsTgdU0zakmjmvU09dH4"
+            mediaLink={t("media_dzwiekami_nadziei_website")}
             imgSrc="/assets/DzwiekamiNadziei2022/koncert_dzwiekami_nadziei_00189.jpg"
             title={t("media_dzwiekami_nadziei_title")}
             description={t("media_dzwiekami_nadziei_desc")}

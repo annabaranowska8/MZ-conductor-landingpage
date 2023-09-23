@@ -4,7 +4,6 @@ import concertList from './concertList';
 
 const Concerts = () => {
   const { t } = useTranslation();
-console.log(concertList)
 
   return (
     <div className="concerts" id="concerts">

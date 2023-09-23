@@ -7,15 +7,37 @@
     "menu_biography": "Biografia",
     "menu_gallery": "Galeria",
     "menu_contact": "Kontakt",
+
     "title_media": "MEDIA",
+
     "media_iuventus_title": "Polska Orkiestra Sinfonia Iuventus",
     "media_iuventus_desc": "Moja Ojczyzna Bedřicha Smetany wykonana po raz pierwszy w Polskiej Orkiestrze Sinfonia Iuventus.",
+    "media_iuventus_website": "https://sinfoniaiuventus.pl/bedrich-smetana-moja-ojczyzna-serce-czech/",
+
     "media_talentinum_title": "Festiwal Talentinum w Zlínie",
     "media_talentinum_desc": "Martyna Zych wybrana jako dyrygent festiwalu Talentinum z Filhamonią w Zlínie.",
+    "media_talentinum_website": "https://www.filharmonie-zlin.cz/951a-a7-talentinum-2022",
+
     "media_karlove_wary_title": "Otwarcie sezonu artystycznego w Karlowych Warach",
     "media_karlove_wary_desc": "Martyna Zych otwierała sezon artystyczny z Orkiestrą Symfoniczną w Karlowych Warach. KlasikaPlus.",
+    "media_karlove_wary_website": "https://www.klasikaplus.cz/vyhled/item/8039-karlovarsky-symfonicky-orchestr-v-nove-sezone-s-novym-sefdirigentem",
+    
     "media_dzwiekami_nadziei_title": "Polskie Radio Dwójka\n koncert\"Dźwiękami nadziei\"",
     "media_dzwiekami_nadziei_desc": "Pierwsza w Polsce Orkiestra Muzyków-Uchodźców z Ukrainy, która swój premierowy koncert miała 3.04.2022 w Rzeszowie. Polskie Radio Dwójka.",
+    "media_dzwiekami_nadziei_website": "https://www.polskieradio.pl/8/410/Artykul/2929544,Martyna-Zych-granie-muzyki-daje-nadzieje?fbclid=IwAR1t1oJ9l9sx0qOT3aPkX5IgNjWrrUTPURjyVI4bsTgdU0zakmjmvU09dH4",
+
+    "media_rezydetn_olsztyn_title": "Dyrygent-rezydent",
+    "media_rezydetn_olsztyn_desc": "Martyna Zych dyrygentem-rezydentem w Filharmonii Warmińsko-Mazurskiej w Olsztynie w sezonie 2023/2024",
+    "media_rezydetn_olsztyn_website": "https://www.facebook.com/photo/?fbid=729038275743797&set=a.663809492266676",
+
+    "media_IFFCC_title": "IFFCC",
+    "media_IFFCC_desc": "Martyna Zych reprezentantką Polski na Międzynarodowym Konkursie Dyrygenckim Ferenca Fricsay'a na Węgrzech",
+    "media_IFFCC_website": "https://fricsaycompetition.com",
+
+    "media_muzyczne_orly_title": "Muzyczne Orły",
+    "media_muzyczne_orly_desc": "Martyna Zych i Natalia Warzecha-Karkus laureatkami Międzynarodowego Konkursu Muzyczne Orły",
+    "media_muzyczne_orly_website": "http://muzyczneorly.pl/index.php/laureaci-2022/",
+    
     "title_concerts": "Koncerty",
     "see_more": "Więcej...",
     "calendar_date_zlin": "Maj 19, 2022",

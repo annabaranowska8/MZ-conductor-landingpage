@@ -85,9 +85,6 @@ const MainView = (props) => {
 
   return (
     <>
-      {console.log("scroll", scroll)}
-      {console.log("scrollMobile", scrollMobile)}
-      {/* {console.log("setBars", setBars )} */}
       <div className="main">
         <div className="angleDouble">{angleDouble}</div>
         <div

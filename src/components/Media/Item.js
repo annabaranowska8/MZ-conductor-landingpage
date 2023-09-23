@@ -12,7 +12,7 @@ const Item = ({ mediaLink, imgSrc, title, description }) => {
           <div className="media-item_description">{description}</div>
         </div>
         <div>
-          <a href={mediaLink} className="media-item_see-more">
+          <a href={mediaLink} target="_blank" className="media-item_see-more">
             <div>{t("see_more")}</div>
           </a>
         </div>
