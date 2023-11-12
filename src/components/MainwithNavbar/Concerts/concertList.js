@@ -20,6 +20,16 @@ export const concertList = [
         country: "calendar_country_olsztyn_23_02_2024",
     },
     {
+        id: "olsztyn_01_03_2024",
+        website: "calendar_website_olsztyn_01_03_2024",
+        date: "calendar_date_olsztyn_01_03_2024",
+        compositor1: "calendar_compositor1_olsztyn_01_03_2024",
+        compositor2: "calendar_compositor2_olsztyn_01_03_2024",
+        compositor3: "calendar_compositor3_olsztyn_01_03_2024",
+        building: "calendar_building_olsztyn_01_03_2024",
+        country: "calendar_country_olsztyn_01_03_2024",
+    },
+    {
         id: "olsztyn_15_03_2024",
         website: "calendar_website_olsztyn_15_03_2024",
         date: "calendar_date_olsztyn_15_03_2024",

@@ -33,12 +33,12 @@ const Media = () => {
             title={t("media_IFFCC_title")}
             description={t("media_IFFCC_desc")}
           />
-          {/* Dźwiękami Nadziei */}
+          {/* La Maestra */}
           <Item
-            mediaLink={t("media_dzwiekami_nadziei_website")}
-            imgSrc="/assets/DzwiekamiNadziei2022/koncert_dzwiekami_nadziei_00189.jpg"
-            title={t("media_dzwiekami_nadziei_title")}
-            description={t("media_dzwiekami_nadziei_desc")}
+            mediaLink={t("la_maestra_website")}
+            imgSrc="/assets/La-Maestra-2024.png"
+            title={t("la_maestra_title")}
+            description={t("la_maestra_desc")}
           />
         </div>
       </div>
